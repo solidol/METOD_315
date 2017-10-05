@@ -1,0 +1,57 @@
+% указываем класс документа
+%\documentclass[twoside,8pt,a5paper,openany]{report}
+\documentclass[twoside,11pt,a5paper,openany]{report}
+
+% подключаем собственный стилевой файл
+\usepackage{labstyle}
+\usepackage{labstyle2}
+
+
+
+
+
+
+
+\makeindex
+
+
+
+
+
+\begin{document}
+
+% указываем язык (для автоматической вставки слов, типа "Глава", "Содержание", "Литература", "рис." и пр.
+\selectlanguage{ukrainian}
+
+
+
+% подключаем файлы содержимого
+\include{cover}
+\include{ch00}
+\include{ch01}
+\include{ch02}
+\include{ch03}
+
+\appendix
+\makeatletter
+
+\makeatother
+\def\chaptername{Додаток}
+
+
+\include{ap01}
+
+ 
+ 
+
+
+
+\input{all.ind}
+
+\bibliographystyle{ugost2008l}
+%\bibliography{bibi}  
+
+
+
+
+\end{document}

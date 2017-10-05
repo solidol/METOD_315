@@ -1,0 +1,14 @@
+﻿% This file was created with JabRef 2.8.1.
+% Encoding: Cp1251
+
+@BOOK{,
+  title = {PHP 5 В Подлиннике},
+  publisher = {БХВ-Петербург},
+  year = {2006},
+  author = {Дмитрий Котеров
+	
+	Алексей Костарев},
+  owner = {solidol},
+  timestamp = {2012.09.07}
+}
+
