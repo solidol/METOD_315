@@ -65,16 +65,19 @@
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[R]{\thepage}
+\fancyhead[LE,RO]{\thepage}
+%\fancyhead[R,L]{\thepage}
 \fancyheadoffset{0mm}
 \fancyfootoffset{0mm}
-\setlength{\headheight}{17pt}
+\setlength{\headheight}{0pt}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \fancypagestyle{plain}{
 	\fancyhf{}
-	\rhead{\thepage}}
-\setcounter{page}{2}
+	\fancyhead[LE,RO]{\thepage}
+	%\rhead{\thepage}
+	}
+\setcounter{page}{1}
 
 \linespread{1.3}
 \renewcommand{\rmdefault}{ftm}
@@ -182,7 +185,7 @@
 	\addcontentsline{toc}{likechapter}{\texorpdfstring{{#1}}{#1}}}
 \newcommand{\empline}{\mbox{}\newline}
 \renewcommand{\bibnumfmt}[1]{#1.\hfill}
-\renewcommand{\bibsection}{\likechapter{À≤“≈–¿“”–¿}}
+\renewcommand{\bibsection}{\likechapter{—œ»—Œ  À≤“≈–¿“”–»}}
 \setlength{\bibsep}{0pt}
 
 \newcommand{\append}[1]{
