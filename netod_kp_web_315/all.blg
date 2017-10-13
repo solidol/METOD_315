@@ -1,9 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: all.aux
 A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: ch00.aux
 A level-1 auxiliary file: ch01.aux
 A level-1 auxiliary file: ch02.aux
+A level-1 auxiliary file: ch03.aux
+A level-1 auxiliary file: ch04.aux
+A level-1 auxiliary file: ch05.aux
+A level-1 auxiliary file: ch06.aux
 A level-1 auxiliary file: ap01.aux
-The style file: ugost2008l.bst
-I found no \citation commands---while reading file all.aux
-I found no \bibdata command---while reading file all.aux
-(There were 2 error messages)
+The style file: gost2003s.bst
+Database file #1: bib.bib
+Warning--empty journal in dstu3008
+(There was 1 warning)

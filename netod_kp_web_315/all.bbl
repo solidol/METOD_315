@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\selectlanguage{#1}\fi}
@@ -7,11 +7,12 @@
 \providecommand*{\BibUrl}[1]{\url{#1}}
 \providecommand{\BibAnnote}[1]{}
 \providecommand*{\BibEmph}[1]{#1}
-\ProvideTextCommandDefault{\cyrdash}{\iflanguage{russian}{\hbox
-  to.8em{--\hss--}}{\textemdash}}
-\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em plus
-  0.1em\fi
-\cyrdash\hskip.2em plus 0.1em\ignorespaces}
-\renewcommand{\newblock}{\ignorespaces}
+
+\bibitem{dstu3008}
+\selectlanguageifdefined{ukrainian}
+ДСТУ~3008:2015 Звіти у сфері науки і техніки
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ В.~Земцева, Ю.~Поліщук, Л.~Шрамко
+  [{\cyr\cyrt\cyra~\cyrii\cyrn.}]. "---
+\newblock 2015.
 
 \end{thebibliography}
