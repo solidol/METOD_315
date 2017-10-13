@@ -153,7 +153,9 @@
 \newcounter{totreferences}
 \makeatletter
 \renewcommand{\@dotsep}{2}
-\newcommand{\l@likechapter}[2]{{\@dottedtocline{0}{0pt}{0pt}{#1}{#2}}}
+\renewcommand{\l@chapter}{\@dottedtocline{1}{0em}{1em}}
+\renewcommand{\l@section}{\@dottedtocline{1}{2em}{2em}}
+\newcommand{\l@likechapter}[2]{{\@dottedtocline{1}{0pt}{0pt}{#1}{#2}}}
 \AtEndDocument{%
   \addtocounter{totfigures}{\value{figure}}%
   \addtocounter{tottables}{\value{table}}%
