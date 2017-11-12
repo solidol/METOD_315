@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  14 OCT 2017 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  12 NOV 2017 04:11
 entering extended mode
 **./all.tex
 (all.tex
@@ -686,8 +686,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 
 
 Writing index file all.idx
-(all.aux (cover.aux) (ch00.aux) (ch01.aux) (ch02.aux) (ch03.aux) (ch04.aux)
-(ch05.aux) (ch06.aux) (ap01.aux))
+(all.aux (cover.aux) (ch00.aux) (ch01.aux) (ch01-01.aux) (ch02.aux) (ch03.aux)
+(ch03-01.aux
+
+LaTeX Warning: Label `fig_web1' multiply defined.
+
+) (ch04.aux) (ch05.aux) (ch06.aux) (ap01.aux))
 \openout1 = `all.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -919,7 +923,25 @@ LaTeX Font Info:    No file PUftm.fd. on input line 3.
 LaTeX Font Warning: Font shape `PU/ftm/m/n' undefined
 (Font)              using `PU/pdf/m/n' instead on input line 3.
 
-)
+
+Underfull \vbox (badness 2753) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 32.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 32.
+[3])
 \tf@toc=\write5
 \openout5 = `all.toc'.
 
@@ -938,7 +960,7 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 29.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 29.
-[3]
+[4]
 \openout2 = `ch00.aux'.
 
  (ch00.tex
@@ -965,7 +987,7 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 30.
-[4
+[5
 
 
 ]
@@ -991,7 +1013,7 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 20.
-[5
+[6
 
 
 
@@ -1013,7 +1035,7 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 32.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 32.
-[6]
+[7]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1028,7 +1050,7 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 49.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 49.
-[7])
+[8])
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1043,10 +1065,10 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 31.
-[8]
-\openout2 = `ch02.aux'.
+[9]
+\openout2 = `ch01-01.aux'.
 
- (ch02.tex
+ (ch01-01.tex
  2.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
@@ -1056,6 +1078,14 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 3.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 21.
+)
+Underfull \vbox (badness 1365) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1063,14 +1093,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 18.
-[9
+(babel)             in language  on input line 32.
+[10
 
 
 
@@ -1082,66 +1112,26 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
-[10]
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 37.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 37.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 63.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 63.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 63.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 32.
 [11]
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 67.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 67.
-)
+\openout2 = `ch02.aux'.
 
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 32.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 32.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 32.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 32.
-[12]
-\openout2 = `ch03.aux'.
-
- (ch03.tex
+ (ch02.tex
  3.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 4.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 4.
+(babel)             in language  on input line 3.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1149,26 +1139,37 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 39.
-[13
+(babel)             in language  on input line 18.
+[12
 
 
 
 ]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 31.
+[13]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 37.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1185,6 +1186,378 @@ Package babel Info: Redefining ukrainian shorthand "|
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 63.
 [14]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 67.
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 33.
+[15]
+\openout2 = `ch03.aux'.
+
+ (ch03.tex
+ 4.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 4.
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 44.
+[16
+
+
+
+]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 48.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 60.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 60.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 70.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 70.
+[17]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 96.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 100.
+[18]
+<web1.png, id=208, 505.1673pt x 397.485pt>
+File: web1.png Graphic file (type png)
+<use web1.png>
+Package pdftex.def Info: web1.png  used on input line 116. on input line 116.
+Package pdftex.def Info: Requested size: 252.58302pt x 198.742pt on input line 
+116.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 124.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 124.
+[19]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 137.
+[20 <./web1.png>]
+Underfull \vbox (badness 5741) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 154.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 154.
+[21]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 155.
+<web2.png, id=225, 442.65375pt x 421.575pt>
+File: web2.png Graphic file (type png)
+<use web2.png>
+Package pdftex.def Info: web2.png  used on input line 162. on input line 162.
+Package pdftex.def Info: Requested size: 177.05835pt x 168.627pt on input line 
+162.
+<web3.jpg, id=227, 963.6pt x 542.025pt>
+File: web3.jpg Graphic file (type jpg)
+<use web3.jpg>
+Package pdftex.def Info: web3.jpg  used on input line 169. on input line 169.
+Package pdftex.def Info: Requested size: 289.08223pt x 162.60875pt on input lin
+e 169.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 180.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 183.
+[22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 183.
+[23 <./web2.png> <./web3.jpg>]
+<er1.png, id=243, 619.31375pt x 321.2pt>
+File: er1.png Graphic file (type png)
+<use er1.png>
+Package pdftex.def Info: er1.png  used on input line 191. on input line 191.
+Package pdftex.def Info: Requested size: 309.65611pt x 160.59961pt on input lin
+e 191.
+<er2.png, id=244, 621.32124pt x 351.3125pt>
+File: er2.png Graphic file (type png)
+<use er2.png>
+Package pdftex.def Info: er2.png  used on input line 199. on input line 199.
+Package pdftex.def Info: Requested size: 310.65987pt x 175.6558pt on input line
+ 199.
+<er3.png, id=245, 617.30624pt x 346.29375pt>
+File: er3.png Graphic file (type png)
+<use er3.png>
+Package pdftex.def Info: er3.png  used on input line 207. on input line 207.
+Package pdftex.def Info: Requested size: 308.65236pt x 173.14644pt on input lin
+e 207.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 216.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 216.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 216.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 216.
+[24]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 224.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 224.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 224.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 224.
+[25 <./er1.png (PNG copy)>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 232.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 232.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 236.
+[26 <./er2.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 240.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 240.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 240.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 240.
+[27 <./er3.png (PNG copy)>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 241.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 241.
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 34.
+[28]
+\openout2 = `ch03-01.aux'.
+
+ (ch03-01.tex
+ 5.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 4.
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 39.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 39.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 39.
+[29
+
+
+
+]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 41.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 41.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 53.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 63.
+[30]
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining ukrainian shorthand "~
@@ -1207,8 +1580,44 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 93.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 93.
-[15]
-Underfull \vbox (badness 5446) has occurred while \output is active []
+[31]
+File: web1.png Graphic file (type png)
+<use web1.png>
+Package pdftex.def Info: web1.png  used on input line 109. on input line 109.
+Package pdftex.def Info: Requested size: 252.58302pt x 198.742pt on input line 
+109.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 117.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 117.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 117.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 117.
+[32]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 130.
+[33]
+Underfull \vbox (badness 5741) has occurred while \output is active []
 
 
 
@@ -1218,41 +1627,22 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 109.
-[16]
+(babel)             in language  on input line 150.
+[34]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 116.
-
-Underfull \vbox (badness 1902) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
+(babel)             in language  on input line 150.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 120.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 120.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 120.
-[17]
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 159.
 )
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1261,18 +1651,33 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 33.
-[18]
+(babel)             in language  on input line 35.
+[35]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 35.
+[36]
 \openout2 = `ch04.aux'.
 
  (ch04.tex
- 4.
+ 6.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "~
@@ -1285,14 +1690,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 34.
-[19
+(babel)             in language  on input line 36.
+[37
 
 
 
@@ -1300,7 +1705,7 @@ Package babel Info: Redefining ukrainian shorthand "~
 \openout2 = `ch05.aux'.
 
  (ch05.tex
- 5.
+ 7.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "~
@@ -1337,14 +1742,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 35.
-[20
+(babel)             in language  on input line 37.
+[38
 
 
 
@@ -1352,7 +1757,7 @@ Package babel Info: Redefining ukrainian shorthand "~
 \openout2 = `ch06.aux'.
 
  (ch06.tex
- 6.
+ 8.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "~
@@ -1365,14 +1770,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 36.
-[21
+(babel)             in language  on input line 38.
+[39
 
 
 
@@ -1395,49 +1800,52 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 60.
-[22
+(babel)             in language  on input line 62.
+[40
 
 
 
 ]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 60.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
- (all.aux (cover.aux) (ch00.aux) (ch01.aux) (ch02.aux) (ch03.aux) (ch04.aux) (c
-h05.aux) (ch06.aux) (ap01.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+(babel)             in language  on input line 62.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
+ (all.aux (cover.aux) (ch00.aux) (ch01.aux) (ch01-01.aux) (ch02.aux)
+(ch03.aux) (ch03-01.aux) (ch04.aux) (ch05.aux) (ch06.aux) (ap01.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `all.out' has not changed.
-(rerunfilecheck)             Checksum: 2834867E64EAE6D4F03621D0B27FF99F;5537.
+(rerunfilecheck)             Checksum: 795D8F4BE094112BDD277D7522C33E51;9811.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 18927 strings out of 493323
- 275247 string characters out of 3139060
- 415234 words of memory out of 3000000
- 21853 multiletter control sequences out of 15000+200000
- 31121 words of font info for 154 fonts, out of 3000000 for 9000
+ 19038 strings out of 493323
+ 276449 string characters out of 3139060
+ 417515 words of memory out of 3000000
+ 21902 multiletter control sequences out of 15000+200000
+ 31333 words of font info for 156 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,45p,2587b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,55p,2590b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/solidol/AppData/Roaming/MiKTeX/2.9/fonts/enc/t2/t2a.enc}<C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/pscyr/times.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/pscyr/timesbd.pfb>
-Output written on all.pdf (22 pages, 106156 bytes).
+Output written on all.pdf (40 pages, 659736 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 19101 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 19227 words of extra memory for PDF output out of 20736 (max. 10000000)
 
