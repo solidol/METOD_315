@@ -1,0 +1,96 @@
+% Encoding: windows-1251
+
+@Book{koterov,
+  Title                    = {PHP 5 В Подлиннике},
+  Author                   = {Д. Котеров and А. Костарев},
+  Publisher                = {БХВ-Петербург},
+  Year                     = {2006},
+  Address                  = {В подлиннике},
+  Edition                  = {3-е},
+  Language                 = {russian},
+  Owner                    = {solidol},
+  Pages                    = {1104},
+  Timestamp                = {2012.09.07}
+}
+
+@Book{php001,
+  title    = {PHP, MySQL, JavaScript \& HTML5 All-in-One For Dummies},
+  year     = {2013},
+  author   = {Valade, Janet and Suehring, Steve},
+  language = {english},
+}
+
+@Book{wp2012wordpress,
+  title     = {WordPress для профессионалов},
+  publisher = {Эксмо},
+  year      = {2012},
+  author    = {Хассей, Т.},
+  isbn      = {9785699547098},
+  language  = {russian},
+  url       = {https://books.google.com.ua/books?id=37zQkQEACAAJ},
+}
+
+@Book{wp002,
+  title     = {Создаем свой сайт на WordPress: быстро, легко и бесплатно},
+  publisher = {Питер},
+  year      = {2010},
+  author    = {Грачев, Андрей},
+  isbn      = {9785498079394},
+  language  = {russian},
+  url       = {https://books.google.com.ua/books?id=Z\_RZ0PHYb9kC},
+}
+
+@Book{2013joomla,
+  title     = {Joomla! 3.0. Официальное руководство},
+  publisher = {Питер},
+  year      = {2013},
+  author    = {Дженнифер, М. and Элин, У.},
+  isbn      = {9785496006637},
+  language  = {russian},
+  url       = {https://books.google.com.ua/books?id=MsLDCwAAQBAJ},
+}
+
+@Book{mysql2007,
+  title     = {Самоучитель MySQL 5},
+  publisher = {БХВ-Петербург},
+  year      = {2007},
+  author    = {Кузнецов, М.В.},
+  series    = {Самоучитель},
+  isbn      = {9785941577545},
+  language  = {russian},
+  url       = {https://books.google.com.ua/books?id=SHuaVtueQlEC},
+}
+
+@Book{2012php,
+  title     = {PHP. Практика создания Web-сайтов, 2 изд.},
+  publisher = {БХВ-Петербург},
+  year      = {2012},
+  author    = {Кузнецов, М.В.},
+  series    = {Профессиональное программирование},
+  isbn      = {9785977502030},
+  language  = {russian},
+  url       = {https://books.google.com.ua/books?id=yBc8G7O\_pAoC},
+}
+
+@Book{20081s,
+  title     = {1С. Битрикс: постройте профессиональный сайт сами},
+  publisher = {Питер},
+  year      = {2008},
+  author    = {Басыров, Р.И.},
+  isbn      = {9785388002716},
+  language  = {russian},
+  url       = {https://books.google.com.ua/books?id=p5XN-8-Iog8C},
+}
+
+@Book{web2008,
+  title     = {Веб-мастеринг: HTML, CSS, JavaScript, PHP, CMS, графика, раскрутка: Html, Css, Javascript, Php, Cms, Grafika, Raskrutka},
+  publisher = {Питер},
+  year      = {2008},
+  author    = {Ташков, П.А.},
+  series    = {На 100проц},
+  isbn      = {9785388007551},
+  language  = {russian},
+  url       = {https://books.google.com.ua/books?id=\_en3o2F1RYcC},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

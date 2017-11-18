@@ -1,0 +1,75 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+
+\bibitem{vak001}
+\selectlanguageifdefined{ukrainian}
+Приклади оформлення бібліографічного опису у списку джерел, який наводять у
+  дисертації, і списку опублікованих робіт, який наводять в авторефераті
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~// \BibEmph{{Бюлетень ВАК України}}. "---
+\newblock 2008. "---
+\newblock {\cyr\textnumero}~3. "---
+\newblock {\cyr\CYRS.}~9--13.
+
+\bibitem{metodlib001}
+\selectlanguageifdefined{ukrainian}
+\BibEmph{Пилип,~А.Я.} "---
+\newblock Складання списків використаної літератури до курсових, дипломних та
+  інших наукових робіт: методичні вказівки щодо проведення практичних занять
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]. "---
+\newblock Іванофранківськ, 2013.
+
+\bibitem{plag1}
+\selectlanguageifdefined{russian}
+\BibEmph{Аушра,~Альгирдас}. Научная электронная библиотека как средство борьбы
+  с плагиатом [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Альгирдас~Аушра~//
+  \BibEmph{Educational Technology \& Society}. "---
+\newblock 2006.
+
+\bibitem{dstu3008bakal}
+\selectlanguageifdefined{russian}
+Диплом бакалавра в LaTeX, или ДСТУ 3008-95 в 150 строк
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}], 2012. "---
+\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
+  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
+  \BibUrl{https://habrahabr.ru/post/144648/}.
+
+\bibitem{word002}
+\selectlanguageifdefined{russian}
+Стиль библиографии для Word по ГОСТ Р ИСО 7.0.5 2008
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}], 2016. "---
+\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
+  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
+  \BibUrl{https://github.com/irandom/docs}.
+
+\bibitem{gost712006}
+\selectlanguageifdefined{ukrainian}
+{ДСТУ~ГОСТ~7.1:2006 Бібліографічний запис. Бібліографічний опис}
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]. "---
+\newblock 2003.
+
+\bibitem{word2010}
+\selectlanguageifdefined{russian}
+Библиография в Word'е 2010 и 2013 по ГОСТ Р 7.0.5-2008
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}], 2012. "---
+\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
+  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
+  \BibUrl{http://det-random.livejournal.com/28819.html}.
+
+\bibitem{dstu3008}
+\selectlanguageifdefined{ukrainian}
+ДСТУ~3008:2015 Звіти у сфері науки і техніки [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}].
+  "---
+\newblock 2015.
+
+\bibitem{gost7052008}
+\selectlanguageifdefined{russian}
+ГОСТ~7.0.5:2008~Библиографическая ссылка [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}].
+
+\end{thebibliography}

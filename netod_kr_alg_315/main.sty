@@ -5,7 +5,7 @@
 \RequirePackage[english,russian,ukrainian]{babel}
 
 
-\RequirePackage{bibunits}
+
 
 %\RequirePackage{siunits}
 \RequirePackage{extsizes}
@@ -187,7 +187,7 @@
 	\addcontentsline{toc}{likechapter}{\texorpdfstring{{#1}}{#1}}}
 \newcommand{\empline}{\mbox{}\newline}
 \renewcommand{\bibnumfmt}[1]{#1.\hfill}
-
+\renewcommand{\bibsection}{\likechapter{Перелік посилань}}
 \setlength{\bibsep}{0pt}
 
 \newcommand{\append}[1]{

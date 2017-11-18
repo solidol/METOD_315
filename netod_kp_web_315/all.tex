@@ -7,15 +7,7 @@
 \usepackage{main}
 
 
-
-
-
-
-
-\makeindex
-
-
-
+%\makeindex
 
 
 \begin{document}
@@ -24,18 +16,24 @@
 \selectlanguage{ukrainian}
 
 
-
+\renewcommand{\bibsection}{\likechapter{Використані джерела}}
 % подключаем файлы содержимого
+
+\defaultbibliographystyle{gost2003s}
+\begin{bibunit} 
 \include{cover}
 \include{ch00}
 \include{ch01}
 \include{ch01-01}
 \include{ch02}
 \include{ch03}
-\include{ch03-01}
 \include{ch04}
 \include{ch05}
-\include{ch06}
+
+ 
+\putbib[main] 
+\end{bibunit}
+
 
 \appendix
 \makeatletter
@@ -43,18 +41,17 @@
 \makeatother
 \def\chaptername{Додаток}
 
+\begin{bibunit} 
+\renewcommand{\bibsection}{\chapter{Список літератури рекомендованої до виконання курсової роботи}}
+\nocite{*} 
+\putbib[books] 
+\end{bibunit}
 
-\include{ap01}
+%\include{ap01}
 
  
- 
-
-
 
 %\input{all.ind}
-
-\bibliographystyle{gost2003s}
-\bibliography{bib}  
 
 
 
