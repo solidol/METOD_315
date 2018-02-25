@@ -1,0 +1,253 @@
+
+\RequirePackage[OT1,T2A]{fontenc}
+\RequirePackage[warn]{mathtext}
+\RequirePackage[cp1251]{inputenc}
+\RequirePackage[english,russian,ukrainian]{babel}
+
+
+
+\RequirePackage{bibunits}
+
+%\RequirePackage{siunits}
+\RequirePackage{extsizes}
+\RequirePackage{titlesec}
+\RequirePackage{cmap}
+\RequirePackage{rotating}
+%\RequirePackage{cyrillic}
+\RequirePackage{pscyr}
+\RequirePackage{graphicx}
+\RequirePackage{amssymb,amsfonts,amsmath,amsthm}
+
+\RequirePackage{indentfirst}
+\RequirePackage[usenames,dvipsnames]{color}
+\RequirePackage{makecell}
+\RequirePackage{multirow}
+\RequirePackage{ulem}
+\RequirePackage{tocloft}
+\RequirePackage{import}
+\RequirePackage{lastpage}
+\RequirePackage{etoolbox}
+\RequirePackage[title,titletoc]{appendix}
+\RequirePackage{pdfpages}
+\RequirePackage{listings}
+\RequirePackage[tableposition=top]{caption}
+\RequirePackage{subcaption}
+\RequirePackage{longtable}
+\RequirePackage{lscape}
+\RequirePackage{microtype}
+
+
+
+\DeclareCaptionFormat{GOSTtable}{#2#1\\#3}
+\DeclareCaptionLabelSeparator{fill}{\hfill}
+%\DeclareCaptionLabelFormat{fullparents}{\bothIfFirst{#1}{~}#2}
+\DeclareCaptionLabelFormat{gtb}{Таблиця{~}#2}
+\captionsetup[table]{
+     format=GOSTtable,
+     %font={footnotesize},
+     labelformat=gtb,
+     labelsep=fill,
+     labelfont=it,
+     textfont=bf,
+     justification=centering,
+     singlelinecheck=false
+     }
+
+\captionsetup[longtable]{
+     format=GOSTtable,
+     %font={footnotesize},
+     labelformat=gtb,
+     labelsep=fill,
+     labelfont=it,
+     textfont=bf,
+     justification=centering,
+     singlelinecheck=false
+     }
+
+
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+%\fancyhead[R,L]{\thepage}
+\fancyheadoffset{0mm}
+\fancyfootoffset{0mm}
+\setlength{\headheight}{0pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\fancyhead[LE,RO]{\thepage}
+	%\rhead{\thepage}
+	}
+\setcounter{page}{1}
+
+\linespread{1.3}
+\renewcommand{\rmdefault}{ftm}
+\frenchspacing
+
+
+\makeatletter % эта строка НЕОБХОДИМА!
+\renewcommand{\@chapapp}{} % необязательная строчка.
+% определяет значение \@chapapp (используется ниже)
+\renewcommand{\@makechapterhead}[1]{% Начало макроопределения
+\vspace*{-2em}% Пустое место вверху страницы
+{\parindent=0pt
+%\raggedright 
+\centering\hyphenpenalty=10000\normalfont\bfseries
+%\@chapapp{} % \@chapapp печатает слово "Glava" (см. выше)
+%\centering\bfseries\thechapter~#1\par % заголовок главы
+\centering\thechapter~#1\par % заголовок главы
+\nopagebreak % чтоб не оторвать заголовок от текста
+\vspace{10 pt} % между заголовком и текстом
+}% конец группы.
+}% конец макроопределения
+\makeatother % эта строка НЕОБХОДИМА!
+
+%\renewcommand{\chaptermark}[1]{\protect\markboth{\textbf{#1}}{}}
+
+%\titleformat{\chapter}[display]
+%	{\filcenter}
+%	{\MakeUppercase{\chaptertitlename} \thechapter}
+%	{8pt}
+%	{\bfseries}{}
+	
+\titleformat{\paragraph}[display]
+	{\filcenter}
+	{\MakeUppercase{\chaptertitlename} \thechapter}
+	{8pt}
+	{\bfseries}{}
+	
+\titleformat{\section}
+	{\normalsize\bfseries}
+	{\thesection}
+	{1em}{}
+	
+\titleformat{\subsection}
+	{\normalsize\bfseries}
+	{\thesubsection}
+	{1em}{}
+	
+%\titlespacing*{\ter}{0pt}{-30pt}{8pt}
+%\titlespacing*{\paragraph}{0pt}{-30pt}{8pt}
+%\titlespacing*{\section}{\parindent}{*4}{*4}
+%\titlespacing*{\subsection}{\parindent}{*4}{*4}
+
+\titlespacing*{\chapter}{0pt}{-30pt}{8pt}
+\titlespacing*{\paragraph}{0pt}{-30pt}{8pt}
+\titlespacing*{\section}{\parindent}{*4}{*4}
+\titlespacing*{\subsection}{\parindent}{*4}{*4}
+
+\renewcommand{\cfttoctitlefont}{\hspace{0.38\textwidth} \bfseries\MakeUppercase}
+\renewcommand{\cftbeforetoctitleskip}{-1em}
+\renewcommand{\cftaftertoctitle}{\mbox{}\hfill \\ \mbox{}\hfill{\footnotesize Стр.}\vspace{-2.5em}}
+\renewcommand{\cftchapfont}{\normalsize }
+\renewcommand{\cftsecfont}{\hspace{40pt}}
+\renewcommand{\cftsubsecfont}{\hspace{20pt}}
+\renewcommand{\cftbeforechapskip}{1em}
+\renewcommand{\cftparskip}{-1mm}
+\renewcommand{\cftdotsep}{1}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{5}
+
+\RequirePackage[square,numbers,sort&compress]{natbib}
+\newcounter{totfigures}
+\newcounter{tottables}
+\newcounter{totreferences}
+\makeatletter
+\renewcommand{\@dotsep}{2}
+\renewcommand{\l@chapter}{\@dottedtocline{1}{0em}{1em}}
+\renewcommand{\l@section}{\@dottedtocline{1}{2em}{2em}}
+\newcommand{\l@likechapter}[2]{{\@dottedtocline{1}{0pt}{0pt}{#1}{#2}}}
+\AtEndDocument{%
+  \addtocounter{totfigures}{\value{figure}}%
+  \addtocounter{tottables}{\value{table}}%
+  \immediate\write\@mainaux{%
+    \string\gdef\string\totfig{\number\value{totfigures}}%
+    \string\gdef\string\tottab{\number\value{tottables}}%
+    \string\gdef\string\totref{\number\value{totreferences}}%
+  }%
+}
+\makeatother
+\pretocmd{\chapter}{\addtocounter{totfigures}{\value{figure}}}{}{}
+\pretocmd{\chapter}{\addtocounter{tottables}{\value{table}}}{}{}
+\pretocmd{\bibitem}{\addtocounter{totreferences}{1}}{}{}
+\providecommand\totfig{} 
+\providecommand\tottab{}
+\providecommand\totref{}
+\newcommand{\likechapterheading}[1]{
+	\begin{center}
+	%\textbf{\MakeUppercase{#1}}
+	\textbf{{#1}}
+	\end{center}
+%	\empline
+\vspace{5pt}
+	}
+\newcommand{\likechapter}[1]{	
+	\phantomsection
+	\likechapterheading{#1}	
+	%\addcontentsline{toc}{likechapter}{\texorpdfstring{\MakeUppercase{#1}}{#1}}}
+	\addcontentsline{toc}{likechapter}{\texorpdfstring{{#1}}{#1}}}
+\newcommand{\empline}{\mbox{}\newline}
+\renewcommand{\bibnumfmt}[1]{#1.\hfill}
+
+\setlength{\bibsep}{0pt}
+
+\newcommand{\append}[1]{
+	\clearpage
+	\stepcounter{chapter}	
+	\paragraph{\MakeUppercase{#1}}
+	\empline
+	\addcontentsline{toc}{likechapter}{\texorpdfstring{\MakeUppercase{\chaptertitlename~\Asbuk{chapter}\;#1}}{\chaptertitlename~\Asbuk{chapter}:~#1}}}
+	
+\RequirePackage{geometry}
+\geometry{left=1.4cm}
+\geometry{right=1.4cm}
+\geometry{top=1.5cm}
+\geometry{bottom=1.5cm}
+
+\RequirePackage{enumitem}
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\@asbuk}{м)}
+\makeatother
+\setlist{nolistsep}
+\renewcommand{\labelitemi}{-}
+\renewcommand{\labelenumi}{\asbuk{enumi})}
+\renewcommand{\labelenumii}{\arabic{enumii})}
+
+\RequirePackage[chapter]{algorithm}
+\RequirePackage{algpseudocode}
+\algrenewcommand{\algorithmicif}{\textbf{если}}
+\algrenewcommand{\algorithmicforall}{\textbf{для всех}}
+\algrenewcommand{\algorithmicfunction}{\textbf{Функция}}
+\algrenewtext{EndFunction}{\textbf{конец функции}}
+\algrenewcommand{\algorithmicreturn}{\textbf{вернуть}}
+\algrenewcommand{\algorithmicdo}{\textbf{делай}}
+\algrenewcommand{\algorithmicthen}{\textbf{тогда}}
+\algrenewcommand{\algorithmicend}{\textbf{конец}}
+\algrenewtext{EndFor}{\textbf{конец цикла}}
+
+\usepackage[pdftex,bookmarks=true,colorlinks=true,linkcolor=Black,citecolor=Black,linktoc=none,urlcolor=Black]{hyperref}
+%\RequirePackage[ps2pdf,bookmarks=true,colorlinks=true,linkcolor=Black,citecolor=Black,linktoc=none]{hyperref}
+\newcommand{\term}[1]{\textit{#1}}
+\newcommand{\bydef}{\ensuremath{\stackrel{\text{\upshape df}}{=}}}
+\newcommand{\<}{\langle}
+\renewcommand{\>}{\rangle}
+\newcommand{\includechapter}[1]{\subimport{#1/}{#1}}
+%\newcommand{\inputintro}{\input{sec_Intro} \newpage}
+
+\newtheorem{theorem}{Теорема}[chapter]
+\newtheorem{problem}{Задача}[chapter]
+\newtheorem{defn}{Определение}[chapter]
+\newtheorem{scenario}{Сценарий}[chapter]
+
+\renewcommand\appendixname{ДОДАТОК}
+\makeatletter
+\def\redeflchapter{\def\l@chapter{\@dottedtocline{1}{0em}{7.8em}}}
+\renewcommand\appendix{\par
+\setcounter{chapter}{0}%
+\setcounter{section}{0}%
+\def\@chapapp{\appendixname}%
+\addtocontents{toc}{\protect\redeflchapter}
+\def\thechapter{\appendixname\hspace{0.2cm}\@Alph\c@chapter}}
+\makeatother

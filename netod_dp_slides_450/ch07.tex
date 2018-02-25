@@ -1,0 +1,378 @@
+\chapter{Взаємодія РНР з СКБД MySQL}
+\section*{Мета роботи}
+Навчитися працювати з СУБД MySQL, записувати та отримувати табличні дані. Опрацювати взаємодію мови РНР з СУБД MySQL.
+
+\section{Мова запитів SQL, та типи даних у СУБД MySQL}
+\index{MySQL!SQL}
+\subsection*{Основні команди}
+Команди SQL можна поділити на дві категорії:
+\begin{itemize}
+\item команди означення даних
+\item команди обробки даних
+\end{itemize}
+
+Перша категорія команд відповідає за створення або видалення баз даних, таблиць баз даних, редагування структури таблиць та типів даних полів таблиць.
+До цієї категорії належать наступні команди:
+
+\begin{itemize}
+\item CREATE
+\item DROP
+\item ALTER
+\item RENAME
+\end{itemize}
+
+Друга категорія команд відповідає за внесення даних до таблиць, оновлення та видалення даних.
+До цієї категорії належать наступні команди:
+
+\begin{itemize}
+\item SELECT
+\item INSERT
+\item DELETE
+\item UPDATE
+\item HANDLER
+\item TRUNCATE
+\item REPLACE
+\item LOAD DATA INFILE
+\item DO
+\end{itemize}
+
+Нижче більш детально розглянуто синтаксис команд.
+
+\subsection*{Команди означення даних}
+\subsubsection*{CREATE}
+\index{MySQL!SQL!CREATE}
+Для створення бази даних необхідно використати наступну послідовність команд:
+
+\begin{verbatim}
+CREATE DATABASE [IF NOT EXISTS] db_name
+\end{verbatim}
+
+Оператор \verb'CREATE DATABASE' створює базу даних з вказаним іменем. Якщо база даних вже існує і не зазначений ключовий параметр \verb'IF NOT EXISTS', то виникає помилка виконання команди. 
+
+Скорочений вид синтаксису команди створення таблиці виглядає наступним чином:
+
+\begin{verbatim}
+ CREATE [TEMPORARY] TABLE [IF NOT EXISTS] 
+ tbl_name [(create_definition, ...)]
+ [Table_options] [select_statement]
+\end{verbatim}
+
+Оператор створює таблицю. Якщо таблиця вже існує і не зазначений параметр \verb'IF NOT EXISTS', то виникає помилка виконання команди. Параметри таблиці та перелік полів вказують після означення імені таблиці. Приклад створення таблиці надано нижче:
+\begin{verbatim}
+ CREATE TABLE table123 (f1 INT, f2 INT)
+\end{verbatim}
+Створюється таблиця з двома полями цілочисельного типу.
+
+Повний перелік можливих параметрів команди дано у додатку~\ref{crtab:text}.
+
+Для створення індексів у СУБД MySQL існує команда CREATE INDEX. Синтаксис команди надано нижче: 
+\begin{verbatim}
+ CREATE [UNIQUE | FULLTEXT] INDEX index_name
+         ON tbl_name (col_name [(length)], ...)
+\end{verbatim}
+Команда CREATE INDEX у версіях MySQL до 3.22 не виконує ніяких дій. У версії 3.22 і більш пізніх CREATE INDEX відповідає команді ALTER TABLE в частині створення індексів. Зазвичай всі індекси створюються в таблиці під час створення самої таблиці командою CREATE TABLE. CREATE INDEX дає можливість додати індекси до існуючих таблиць.
+
+
+\subsubsection*{DROP}
+\index{MySQL!SQL!DROP}
+Для видалення бази даних існує наступна команда:
+\begin{verbatim}
+ DROP DATABASE [IF EXISTS] db_name
+\end{verbatim}
+Оператор DROP DATABASE видаляє всі таблиці в зазначеній базі даних і саму базу. Якщо ви виконуєте DROP DATABASE на базі даних, символічно пов'язаної з іншою, то видаляється як посилання, так і оригінальна база даних. Будьте дуже уважні при роботі з цією командою!
+
+Оператор DROP DATABASE повертає кількість файлів, які були видалені з директорії бази даних. Як правило, це число дорівнює кількості таблиць, помноженому на три, оскільки зазвичай кожна таблиця представлена трьома файлами: .MYD-файлом, MYI-файлом і .Frm-файлом.
+
+Команда DROP DATABASE видаляє з директорії зазначеної бази даних всі файли з наступними розширеннями: <<.BAK>>, <<.DAT>>, <<.HSH>>, <<.ISD>>, <<.ISM>>, <<.ISM>>, <<.MRG>>, <<.MYD>>, <<.MYI>>, <<.Db>>, <<.Frm>>. 	
+
+Всі піддиректорії, імена яких складаються з двох цифр (RAID-директорії), також видаляються.
+
+У версії MySQL 3.22 і більш пізніх можна використовувати ключові слова IF EXISTS для попередження помилки, якщо зазначена база даних не існує. 
+
+Щоб видалити таблицю з поточної бази даних необхідно виконати наступну команду: 
+\begin{verbatim}
+ DROP TABLE [IF EXISTS] tbl_name 
+ [, tbl_name, ...] [RESTRICT | CASCADE]
+\end{verbatim}
+Оператор DROP TABLE видаляє одну або декілька таблиць. Всі табличні дані та визначення видаляються, так що будьте уважні при роботі з цією командою!
+
+У версії MySQL 3.22 і більш пізніх можна використовувати ключові слова IF EXISTS , щоб попередити помилку, якщо зазначені таблиці не існують. 
+
+Для видалення індексів з таблиць необхідно використати команду
+\begin{verbatim}
+ DROP INDEX index_name ON tbl_name
+\end{verbatim}
+Оператор DROP INDEX видаляє індекси, зазначені в index\_name з таблиці tbl\_name. DROP INDEX не виконує ніяких дій у версіях MySQL до 3.22. У версіях 3.22 і більш пізніх DROP INDEX відповідає команді ALTER TABLE в частині видалення індексів.
+\subsubsection*{ALTER}
+\index{MySQL!SQL!ALTER}
+Скорочений синтаксис команди для зміни структури таблиць виглядає наступним чином:
+\begin{verbatim}
+ ALTER [IGNORE] TABLE tbl_name alter_spec 
+ [, alter_spec ...]
+\end{verbatim}
+Оператор ALTER TABLE забезпечує можливість змінювати структуру існуючої таблиці. Наприклад, можна додавати або видаляти стовпці, створювати або знищувати індекси або перейменовувати стовпці або саму таблицю. Можна також змінювати коментар для таблиці та її тип.
+
+Нижче надано приклади використання команди:
+
+Для того щоб змінити тип стовпця з INTEGER на TINYINT NOT NULL (залишаючи ім'я колишнім) і змінити тип стовпця b з CHAR(10) на CHAR(20) з перейменуванням його з b на c :
+\begin{verbatim}
+ALTER TABLE t2 MODIFY a TINYINT NOT NULL, 
+      CHANGE bc CHAR (20);
+\end{verbatim}
+
+Для того щоб додати індекс до стовпцю d і зробити стовпець a первинним ключем:
+\begin{verbatim}
+ALTER TABLE t2 ADD INDEX (d), ADD PRIMARY KEY (a);
+\end{verbatim}
+
+Повні дані щодо синтаксису ALTER TABLE дано в додатку~\ref{alttab:text}.
+
+\subsubsection*{RENAME}
+\index{MySQL!SQL!RENAME}
+Для перейменування таблиць, починаючи з версії 3.22, введено команду RENAME TABLE.
+\begin{verbatim}
+ RENAME TABLE tbl_name TO new_tbl_name 
+ [, tbl_name2 TO new_tbl_name2, ...]
+\end{verbatim}
+Операція перейменування повинна здійснюватися як атомарна, тобто при виконанні перейменування ніякому іншому потоку не дозволяється доступ до зазначених таблиць. Завдяки цьому можливе заміщення таблиці порожній таблицею:
+\begin{verbatim}
+ CREATE TABLE new_table (...);
+ RENAME TABLE old_table TO backup_table, 
+ new_table TO old_table;
+\end{verbatim}
+Перейменування проводиться зліва направо. Таким чином, для обміну іменами між двома таблицями необхідно виконати наступні дії:
+\begin{verbatim}
+ RENAME TABLE old_table TO backup_table,
+         new_table TO old_table,
+         backup_table TO new_table;
+\end{verbatim}
+Для двох баз даних, що знаходяться на одному і тому ж диску, можна також здійснювати обмін іменами:
+\begin{verbatim}
+ RENAME TABLE current_db.tbl_name 
+ TO other_db.tbl_name;
+\end{verbatim}
+При виконанні команди RENAME не повинні мати місце заблоковані таблиці або активні транзакції. Необхідно також мати привілеї ALTER і DROP для початкової таблиці і привілеї CREATE і INSERT~--- для нової.
+
+Якщо MySQL стикається з якою-небудь помилкою при перейменуванні декількох таблиць, то станеться зворотне перейменування для всіх перейменованих таблиць, щоб повернути все в початковий стан. 
+
+\subsection*{Команди обробки даних}
+\subsubsection*{SELECT}
+\index{MySQL!SQL!SELECT}
+
+Оператор SELECT має наступну структуру:
+\begin{verbatim}
+ SELECT [STRAIGHT_JOIN]
+        [SQL_SMALL_RESULT] [SQL_BIG_RESULT] 
+        [SQL_BUFFER_RESULT] [SQL_CACHE | SQL_NO_CACHE] 
+        [SQL_CALC_FOUND_ROWS] [HIGH_PRIORITY]
+        [DISTINCT | DISTINCTROW | ALL]
+     select_expression, ...
+     [INTO {OUTFILE | DUMPFILE} 
+     'file_name' export_options]
+     [FROM table_references
+       [WHERE where_definition]
+       [GROUP BY {unsigned_integer | 
+       col_name | formula} [ASC | DESC], ...]
+       [HAVING where_definition]
+       [ORDER BY {unsigned_integer | 
+       col_name | formula} [ASC | DESC], ...]
+       [LIMIT [offset,] rows]
+       [PROCEDURE procedure_name]
+       [FOR UPDATE | LOCK IN SHARE MODE]]
+\end{verbatim}
+SELECT застосовується для вилучення рядків, вибраних з однієї або декількох таблиць. Вираз select\_expression задає стовпці, в яких необхідно проводити вибірку. Крім того, оператор SELECT можна використовувати для витягання рядків, обчислених без посилання якусь таблицю. Наприклад запит \verb'SELECT 1 + 1;' поверне значення <<2>>.
+
+\subsubsection*{INSERT}
+\index{MySQL!SQL!INSERT}
+\begin{verbatim}
+     INSERT [LOW_PRIORITY | DELAYED] 
+         [IGNORE] [INTO] tbl_name [(col_name, ...)]
+         VALUES (expression, ...), (...), ...
+ або INSERT [LOW_PRIORITY | DELAYED] [IGNORE]
+         [INTO] tbl_name [(col_name, ...)]
+         SELECT ...
+ або INSERT [LOW_PRIORITY | DELAYED] [IGNORE]
+         [INTO] tbl_name
+         SET col_name = expression, 
+         col_name = expression, ...
+\end{verbatim}
+Оператор INSERT вставляє нові рядки в існуючу таблицю. Форма даної команди INSERT \dots VALUES вставляє рядки відповідно до точно зазначеними в команді значеннями. Форма INSERT \dots SELECT вставляє рядки, обрані з іншої таблиці або таблиць. Форма INSERT ... VALUES зі списком з декількох значень підтримується у версії MySQL 3.22.5 і більш пізніх. Синтаксис вираження col\_name=expression підтримується у версії MySQL 3.22.10 і більш пізніх. 
+
+Команда INSERT \dots SELECT забезпечує можливість швидкого внесення великої кількості рядків у таблицю з однієї або більше таблиць.
+\begin{verbatim}
+ INSERT INTO tblTemp2 (fldID) 
+         SELECT tblTemp1.fldOrder_ID 
+         FROM tblTemp1
+         WHERE tblTemp1.fldOrder_ID > 100;
+\end{verbatim}
+
+\subsubsection*{DELETE}
+\index{MySQL!SQL!DELETE}
+\begin{verbatim}
+DELETE [LOW_PRIORITY | QUICK] FROM table_name
+       [WHERE where_definition]
+       [ORDER BY ...]
+       [LIMIT rows]
+
+или
+
+DELETE [LOW_PRIORITY | QUICK] table_name[.*] [,table_name[.*] ...]
+       FROM table-references
+       [WHERE where_definition]
+
+oили
+
+DELETE [LOW_PRIORITY | QUICK]
+       FROM table_name[.*], [table_name[.*] ...]
+       USING table-references
+       [WHERE where_definition]
+\end{verbatim}
+Оператор DELETE видаляє з таблиці table\_name рядки, що задовольняють заданим в where\_definition умовам, і повертає число віддалених записів.
+
+Якщо оператор DELETE запускається без визначення WHERE, то видаляються всі рядки. При роботі в режимі AUTOCOMMIT це буде аналогічно використанню оператора TRUNCATE. В MySQL 3.23 оператор DELETE без визначення WHERE поверне нуль як число віддалених записів.
+\subsubsection*{UPDATE}
+\index{MySQL!SQL!UPDATE}
+
+\begin{verbatim}
+UPDATE [LOW_PRIORITY] [IGNORE] tbl_name
+    SET col_name1=expr1 [, col_name2=expr2, ...]
+    [WHERE where_definition]
+    [LIMIT #]
+\end{verbatim}
+Оператор UPDATE оновлює стовпці відповідно до їх новими значеннями в рядках існуючої таблиці. У виразі SET вказується, які саме стовпці слід модифікувати і які величини повинні бути в них встановлені. У виразі WHERE, якщо воно присутнє, задається, які рядки підлягають оновленню. В інших випадках оновлюються всі рядки. Якщо задано вираз ORDER BY, то рядки будуть оновлюватися у зазначеному в ньому порядку.
+
+Якщо вказується ключове слово LOW\_PRIORITY, то виконання даної команди UPDATE затримується до тих пір, поки інші клієнти не завершать читання цієї таблиці.
+
+Якщо вказується ключове слово IGNORE, то команда оновлення не буде перервана, навіть якщо при оновленні виникне помилка дублювання ключів. Рядки, через які виникають конфліктні ситуації, оновлені не будуть.
+
+Якщо доступ до стовпцю із зазначеного виразу здійснюється по аргументу tbl\_name, то команда UPDATE використовує для цього стовпця його поточне значення.
+\subsubsection*{HANDLER}
+\index{MySQL!SQL!HANDLER}
+Оператор HANDLER забезпечує прямий доступ до інтерфейсу дескриптора таблиці MyISAM, минаючи оптимізатор SQL. Отже, цей оператор працює швидше, ніж SELECT.
+
+Перша форма оператора HANDLER відкриває таблицю, роблячи її доступною для послідовності команд HANDLER \dots READ. Цей об'єкт недоступний іншим потокам і не буде закритий, поки даний потік не викличе HANDLER tbl\_name CLOSE або сам потік не буде знищений.
+
+Друга форма вибирає один рядок (або більше - у відповідності з установкою в вираженні LIMIT), для якої (их) зазначений індекс відповідає заданій умові і умова в виразі WHERE також виконується. Якщо індекс складається з декількох частин (охоплює декілька стовпців), то складові його величини вказуються у вигляді розділеного комами списку. Забезпечуються величини тільки для декількох перших шпальт.
+
+Третя форма вибирає один рядок (або більше - у відповідності з установкою в вираженні LIMIT), з таблиці; гаразд вказівки індексів у відповідності з умовою WHERE.
+
+Четверта форма (без зазначення індексів) вибирає один рядок (або більше - у відповідності з установкою в вираженні LIMIT), з таблиці, використовуючи природний порядок рядків (як вони зберігаються у файлі даних), у відповідності з умовою WHERE. Ця форма працює швидше, ніж HANDLER tbl\_name READ index\_name, в тих випадках, коли бажаний перегляд всієї таблиці.
+
+Оператор HANDLER \dots CLOSE закриває таблицю, відкриту оператором HANDLER ... OPEN.
+\subsubsection*{TRUNCATE}
+\index{MySQL!SQL!TRUNCATE}
+\begin{verbatim}
+TRUNCATE TABLE table_name
+\end{verbatim}
+TRUNCATE TABLE має наступні відмінності від DELETE FROM ...:
+\begin{itemize}
+\item Ця операція видаляє і відтворює таблицю, що набагато швидше, ніж почергове видалення рядків.
+\item Операція є нетранзакціонной; якщо одночасно виконується транзакція або активна блокування таблиці, то можна отримати помилку.
+\item Не повертає кількість вилучених рядків.
+\item Поки існує коректний файл <<table\_name.frm>>, таблицю можна відтворити з його допомогою, навіть якщо файли даних або індексів пошкоджені.
+\end{itemize}
+
+TRUNCATE є розширенням Oracle SQL.
+\subsubsection*{REPLACE}
+\index{MySQL!SQL!REPLACE}
+\begin{verbatim}
+    REPLACE [LOW_PRIORITY | DELAYED]
+        [INTO] tbl_name [(col_name,...)]
+        VALUES (expression,...),(...),...
+или REPLACE [LOW_PRIORITY | DELAYED]
+        [INTO] tbl_name [(col_name,...)]
+        SELECT ...
+или REPLACE [LOW_PRIORITY | DELAYED]
+        [INTO] tbl_name
+        SET col_name=expression, col_name=expression,...
+\end{verbatim}
+
+Оператор REPLACE працює точно так само, як INSERT, за винятком того, що якщо стара запис у даній таблиці має те ж значення індексу UNIQUE або PRIMARY KEY, що і нова, то стара запис перед занесенням нової буде видалена.
+
+\subsubsection*{LOAD DATA INFILE}
+\index{MySQL!SQL!LOAD DATA INFILE}
+
+\begin{verbatim}
+LOAD DATA [LOW_PRIORITY | CONCURRENT] [LOCAL] INFILE 'file_name.txt'
+    [REPLACE | IGNORE]
+    INTO TABLE tbl_name
+    [FIELDS
+        [TERMINATED BY '\t']
+        [[OPTIONALLY] ENCLOSED BY '']
+        [ESCAPED BY '\\' ]
+    ]
+    [LINES TERMINATED BY '\n']
+    [IGNORE number LINES]
+    [(col_name,...)]
+\end{verbatim}
+
+Команда LOAD DATA INFILE читає рядки з текстового файлу і вставляє їх у таблицю з дуже високою швидкістю. Якщо задано ключове слово LOCAL, то файл читається з клієнтського хоста. Якщо ж LOCAL не вказується, то файл повинен знаходитися на сервері. (Опція LOCAL доступна у версії MySQL 3.22.6 і більш пізніх.)
+
+Якщо текстові файли, які потрібно прочитати, знаходяться на сервері, то з міркувань безпеки ці файли повинні або розміщуватися в директорії бази даних, або бути доступними для читання всім користувачам. Крім того, для застосування команди LOAD DATA INFILE до серверних файлів необхідно володіти привілеями FILE для серверного хосту.
+
+
+\subsubsection*{DO}
+\index{MySQL!SQL!DO}
+
+\begin{verbatim}
+DO expression, [expression, ...]
+\end{verbatim}
+Виконує даний вираз, але не повертає небудь результат. Є скороченою формою оператора SELECT expression, expression, але перевага його полягає в тому, що він працює трохи швидше, якщо немає необхідності в поверненні результату.
+
+Оператор головним чином корисний при використанні з функціями, які мають побічні ефекти, такими як RELEASE\_LOCK.
+\section{Функції для роботи з MySQL. Виконання SQL-запитів}
+\index{MySQL!PHP!функції}
+
+\section{Установка з'єднання. Вибір бази даних}
+\index{MySQL!таблиці}
+
+\section{Вибірка з таблиці, розбір результату вибірки}
+\index{MySQL!вибірка}
+
+\section{Додавання записів, оновлення записів}
+\index{MySQL!додавання}
+\index{MySQL!оновлення}
+\section{Очищення і видалення таблиць}
+\index{MySQL!очищення таблиць}
+\index{MySQL!видалення таблиць}
+\pagebreak[3]
+\section{Індивідуальне завдання}
+
+\nopagebreak[4]
+\subsection*{Завдання до лабораторної роботи}
+\nopagebreak[4]
+\begin{enumerate}
+\item Вивчити теоретичний матеріал
+\item Відповісти на контрольні запитання
+\item Скласти алгоритм (блок-схему) програми
+\item Виконати практичне завдання
+\item Скласти звіт
+\item Захистити роботу
+\end{enumerate}
+
+\subsection*{Контрольні запитання}
+\nopagebreak[4]
+\begin{enumerate}
+\item Що таке рядки?
+\item Яким чином можна задати рядковий літерал?
+\item Яка особливість рядків у подвійних лапках?
+\item Яка особливість синтаксису \verb'Heredoc'? 
+\item Яким чином вивести HTML-код на веб-сторінці?
+\item Що таке регулярні вирази?
+\item Яка особливість метасимволу <<\verb'\'>>?
+\item Для чого використвуються регулярні вирази?
+\item Які функції для роботи з регулярними виразами ви знаєте?
+\item Яким чином можна використовувати регулярні вирази в SQL-запитах?
+\end{enumerate}
+
+\subsection*{Практичні завдання}
+\nopagebreak[4]
+
+
+\begin{enumerate}
+\item[]Написати HTML-сторінку з формою, що складається з:
+\item однорядкового поля вводу, поля вводу пароля та кнопки відправлення форми.
+\item 
+
+\end{enumerate}
+
