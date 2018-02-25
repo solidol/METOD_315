@@ -8,4 +8,6 @@ Warning--entry type for "gost712006" isn't style-file defined
 Warning--entry type for "gost7052008" isn't style-file defined
 --line 36 of file main.bib
 Warning--empty year in gost7052008
-(There were 4 warnings)
+Warning--language is not defined: ukrainiannnoaddress
+Warning--language is not defined: ukrainiannnopublisher
+(There were 6 warnings)

@@ -1,4 +1,7 @@
 del *.bbl /Q
+del *.blg /Q
+del *.out /Q
+del *.dvi /Q
 del *.aux /Q
 del *.bak /Q
 pdflatex all

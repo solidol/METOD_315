@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\selectlanguage{#1}\fi}
@@ -8,14 +8,15 @@
 \providecommand{\BibAnnote}[1]{}
 \providecommand*{\BibEmph}[1]{#1}
 
-\bibitem{vak001}
-\selectlanguageifdefined{ukrainian}
-Приклади оформлення бібліографічного опису у списку джерел, який наводять у
-  дисертації, і списку опублікованих робіт, який наводять в авторефераті
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~// \BibEmph{{Бюлетень ВАК України}}. "---
-\newblock 2008. "---
-\newblock {\cyr\textnumero}~3. "---
-\newblock {\cyr\CYRS.}~9--13.
+\bibitem{proto1}
+\selectlanguageifdefined{russian}
+Что такое прототип сайта – создание и примеры
+  [{\cyr\CYREREV\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyrery\cyrishrt\
+  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
+\newblock [{\cyr\CYRB.\ \cyrm.}~: {\cyr\cyrb.\ \cyri.}]. "---
+\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
+  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
+  \BibUrl{http://slavos.com/prototipy_sajta/}.
 
 \bibitem{metodlib001}
 \selectlanguageifdefined{ukrainian}
@@ -24,6 +25,18 @@
   інших наукових робіт: методичні вказівки щодо проведення практичних занять
   [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]. "---
 \newblock Іванофранківськ, 2013.
+
+\bibitem{metodgost002}
+\selectlanguageifdefined{ukrainian}
+\BibEmph{Галевич,~О.~К.} "---
+\newblock ДСТУ ГОСТ 7.1:2006 «Бібліографічний запис, бібліографічний опис.
+  Загальні вимоги та правила складання»: Методичні рекомендації з впровадження
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]. "---
+\newblock Львівський національний університет імені Івана Франка, Львів, 2008.
+  "---
+\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
+  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
+  \BibUrl{http://ftfsite.ru/wp-content/files/Library_Standart.pdf}.
 
 \bibitem{plag1}
 \selectlanguageifdefined{russian}
@@ -34,16 +47,20 @@
 
 \bibitem{dstu3008bakal}
 \selectlanguageifdefined{russian}
-Диплом бакалавра в LaTeX, или ДСТУ 3008-95 в 150 строк
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}], 2012. "---
+Диплом бакалавра в latex, или ДСТУ 3008-95 в 150 строк
+  [{\cyr\CYREREV\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyrery\cyrishrt\
+  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
+\newblock [{\cyr\CYRB.\ \cyrm.}~: {\cyr\cyrb.\ \cyri.}], 2012. "---
 \newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
   \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
   \BibUrl{https://habrahabr.ru/post/144648/}.
 
 \bibitem{word002}
 \selectlanguageifdefined{russian}
-Стиль библиографии для Word по ГОСТ Р ИСО 7.0.5 2008
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}], 2016. "---
+Стиль библиографии для word по ГОСТ Р ИСО 7.0.5 2008
+  [{\cyr\CYREREV\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyrery\cyrishrt\
+  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
+\newblock [{\cyr\CYRB.\ \cyrm.}~: {\cyr\cyrb.\ \cyri.}], 2016. "---
 \newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
   \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
   \BibUrl{https://github.com/irandom/docs}.
@@ -56,8 +73,10 @@
 
 \bibitem{word2010}
 \selectlanguageifdefined{russian}
-Библиография в Word'е 2010 и 2013 по ГОСТ Р 7.0.5-2008
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}], 2012. "---
+Библиография в word'е 2010 и 2013 по ГОСТ Р 7.0.5-2008
+  [{\cyr\CYREREV\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyrery\cyrishrt\
+  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
+\newblock [{\cyr\CYRB.\ \cyrm.}~: {\cyr\cyrb.\ \cyri.}], 2012. "---
 \newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
   \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
   \BibUrl{http://det-random.livejournal.com/28819.html}.
@@ -71,5 +90,15 @@
 \bibitem{gost7052008}
 \selectlanguageifdefined{russian}
 ГОСТ~7.0.5:2008~Библиографическая ссылка [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}].
+
+\bibitem{adobe1}
+\selectlanguageifdefined{ukrainian}
+Копіювання css із шарів
+  [{\cyr\CYRE\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyri\cyrishrt\
+  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
+\newblock [S.\ l.~: s.\ n.]. "---
+\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
+  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
+  \BibUrl{https://helpx.adobe.com/ua/photoshop/using/copy-css-shape-or-text.html}.
 
 \end{thebibliography}
