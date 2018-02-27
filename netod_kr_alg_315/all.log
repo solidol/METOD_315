@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  25 FEB 2018 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  27 FEB 2018 14:59
 entering extended mode
 **./all.tex
 (all.tex
@@ -83,6 +83,11 @@ Language: ukraineb 2017/06/13 1.4a Ukrainian support for the Babel system
 LaTeX Info: Redefining \cyrillictext on input line 81.
 LaTeX Info: Redefining \textcyrillic on input line 93.
 ))
+(C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\bibunits\bibunits.sty
+Package: bibunits 2004/05/12 v2.4 Multiple bibliographies in one document.
+\@bibunitaux=\write3
+\@bibunitauxcnt=\count89
+)
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\extsizes\extsizes.sty
 Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
 
@@ -141,7 +146,7 @@ File: pdftex.def 2017/06/15 v1.0d Graphics/color driver for pdftex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count89
+\c@r@tfl@t=\count90
 \rotFPtop=\skip45
 \rotFPbot=\skip46
 \rot@float@box=\box27
@@ -181,13 +186,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count90
+\inf@bad=\count91
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count91
-\leftroot@=\count92
+\uproot@=\count92
+\leftroot@=\count93
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count93
-\DOTSCASE@=\count94
+\classnum@=\count94
+\DOTSCASE@=\count95
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -198,15 +203,15 @@ LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 \symOMLletters=\mathgroup6
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \symOMSletters=\mathgroup7
-\macc@depth=\count95
-\c@MaxMatrixCols=\count96
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count97
-\dspbrk@lvl=\count98
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
 \tag@help=\toks21
-\row@=\count99
-\column@=\count100
-\maxfields@=\count101
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
 \andhelp@=\toks22
 \eqnshift@=\dimen114
 \alignsep@=\dimen115
@@ -259,13 +264,13 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \backup@length=\skip54
 )
 \rotheadsize=\dimen122
-\c@nlinenum=\count102
+\c@nlinenum=\count103
 \TeXr@lab=\toks32
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip55
-\multirow@cntb=\count103
+\multirow@cntb=\count104
 \multirow@dima=\skip56
 \bigstrutjot=\dimen123
 )
@@ -275,7 +280,7 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \UL@skip=\skip57
 \UL@hook=\toks33
 \UL@height=\dimen124
-\UL@pe=\count104
+\UL@pe=\count105
 \UL@pixel=\dimen125
 \ULC@box=\box32
 Package: ulem 2012/05/18
@@ -313,8 +318,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip84
 \cftfigindent=\skip85
 \cftfignumwidth=\skip86
-\c@lofdepth=\count105
-\c@lotdepth=\count106
+\c@lofdepth=\count106
+\c@lotdepth=\count107
 \cftbeforelottitleskip=\skip87
 \cftafterlottitleskip=\skip88
 \cftbeforetabskip=\skip89
@@ -329,28 +334,28 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count107
+\etb@tempcnta=\count108
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count108
-\c@@ppsavesec=\count109
-\c@@ppsaveapp=\count110
+\c@@pps=\count109
+\c@@ppsavesec=\count110
+\c@@ppsaveapp=\count111
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
 Package: pdfpages 2017/08/14 v0.5k Insert pages of external PDF documents (AM)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count111
-\calc@Bcount=\count112
+\calc@Acount=\count112
+\calc@Bcount=\count113
 \calc@Adimen=\dimen127
 \calc@Bdimen=\dimen128
 \calc@Askip=\skip92
 \calc@Bskip=\skip93
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count113
+\calc@Ccount=\count114
 \calc@Cskip=\skip94
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
@@ -377,27 +382,27 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box33
 \AM@global@opts=\toks34
 \AM@toc@title=\toks35
-\c@AM@survey=\count114
+\c@AM@survey=\count115
 \AM@templatesizebox=\box34
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count115
+\lst@mode=\count116
 \lst@gtempboxa=\box35
 \lst@token=\toks36
-\lst@length=\count116
+\lst@length=\count117
 \lst@currlwidth=\dimen131
-\lst@column=\count117
-\lst@pos=\count118
+\lst@column=\count118
+\lst@pos=\count119
 \lst@lostspace=\dimen132
 \lst@width=\dimen133
-\lst@newlines=\count119
-\lst@lineno=\count120
+\lst@newlines=\count120
+\lst@lineno=\count121
 \lst@maxwidth=\dimen134
 
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count121
-\lst@skipnumbers=\count122
+\c@lstnumber=\count122
+\lst@skipnumbers=\count123
 \lst@framebox=\box36
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
@@ -419,14 +424,14 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen140
 \caption@hangindent=\dimen141
 )
-\c@ContinuedFloat=\count123
+\c@ContinuedFloat=\count124
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count124
-\c@subtable=\count125
+\c@subfigure=\count125
+\c@subtable=\count126
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -434,16 +439,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip96
 \LTpre=\skip97
 \LTpost=\skip98
-\LTchunksize=\count126
+\LTchunksize=\count127
 \LTcapwidth=\dimen142
 \LT@head=\box37
 \LT@firsthead=\box38
 \LT@foot=\box39
 \LT@lastfoot=\box40
-\LT@cols=\count127
-\LT@rows=\count128
-\c@LT@tables=\count129
-\c@LT@chunks=\count130
+\LT@cols=\count128
+\LT@rows=\count129
+\c@LT@tables=\count130
+\c@LT@chunks=\count131
 \LT@p@ftn=\toks37
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
@@ -452,11 +457,11 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
 Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
 \MT@toks=\toks38
-\MT@count=\count131
+\MT@count=\count132
 LaTeX Info: Redefining \textls on input line 789.
 \MT@outer@kern=\dimen143
 LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
-\MT@listname@count=\count132
+\MT@listname@count=\count133
 
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdft
 ex.def
@@ -469,7 +474,9 @@ Package microtype Info: Loading configuration file microtype.cfg.
 
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
 File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
-)) (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+)) (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip100
@@ -481,16 +488,17 @@ Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
 \f@nch@O@erf=\skip106
 \f@nch@O@olf=\skip107
 \f@nch@O@orf=\skip108
-) (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+)
+(C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip109
 \bibsep=\skip110
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count133
+\c@NAT@ctr=\count134
 )
-\c@totfigures=\count134
-\c@tottables=\count135
-\c@totreferences=\count136
+\c@totfigures=\count135
+\c@tottables=\count136
+\c@totreferences=\count137
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -502,9 +510,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count137
-\Gm@cntv=\count138
-\c@Gm@tempcnt=\count139
+\Gm@cnth=\count138
+\Gm@cntv=\count139
+\c@Gm@tempcnt=\count140
 \Gm@bindingoffset=\dimen144
 \Gm@wd@mp=\dimen145
 \Gm@odd@mp=\dimen146
@@ -522,21 +530,21 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen152
 \enit@toks=\toks40
 \enit@inbox=\box41
-\enitdp@description=\count140
+\enitdp@description=\count141
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count141
+\c@float@type=\count142
 \float@exts=\toks41
 \float@box=\box42
 \@float@everytoks=\toks42
 \@floatcapt=\box43
 )
 \@float@every@algorithm=\toks43
-\c@algorithm=\count142
+\c@algorithm=\count143
 )
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseudoco
 de.sty
@@ -547,15 +555,15 @@ x.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count143
-\c@ALG@rem=\count144
-\c@ALG@nested=\count145
+\c@ALG@line=\count144
+\c@ALG@rem=\count145
+\c@ALG@nested=\count146
 \ALG@tlm=\skip112
 \ALG@thistlm=\skip113
-\c@ALG@Lnr=\count146
-\c@ALG@blocknr=\count147
-\c@ALG@storecount=\count148
-\c@ALG@tmpcounter=\count149
+\c@ALG@Lnr=\count147
+\c@ALG@blocknr=\count148
+\c@ALG@storecount=\count149
+\c@ALG@tmpcounter=\count150
 \ALG@tmplength=\skip114
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -611,14 +619,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen153
-\Hy@linkcounter=\count150
-\Hy@pagecounter=\count151
+\Hy@linkcounter=\count151
+\Hy@pagecounter=\count152
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 \symPD1letters=\mathgroup8
 )
-\Hy@SavedSpaceFactor=\count152
+\Hy@SavedSpaceFactor=\count153
 Package hyperref Info: Option `unicode' set `true' on input line 3453.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
@@ -637,7 +645,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count153
+\c@Hy@tempcnt=\count154
 
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
@@ -645,7 +653,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen154
-\Fld@menulength=\count154
+\Fld@menulength=\count155
 \Field@Width=\dimen155
 \Fld@charsize=\dimen156
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -657,17 +665,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count155
-\c@Item=\count156
-\c@Hfootnote=\count157
+\Hy@abspage=\count156
+\c@Item=\count157
+\c@Hfootnote=\count158
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count158
-\c@bookmark@seq@number=\count159
+\Fld@listcount=\count159
+\c@bookmark@seq@number=\count160
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -676,55 +684,50 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip115
 )
-\c@theorem=\count160
-\c@problem=\count161
-\c@defn=\count162
-\c@scenario=\count163
+\c@theorem=\count161
+\c@problem=\count162
+\c@defn=\count163
+\c@scenario=\count164
 )
-\@indexfile=\write3
-\openout3 = `all.idx'.
-
-
-Writing index file all.idx
-(all.aux (cover.aux) (ch00.aux) (ch01.aux) (ch02.aux) (ch03.aux) (ch04.aux)
-(ch05.aux) (ch06.aux) (ap01.aux))
+(all.aux (cover.aux) (ch00.aux) (ch01.aux) (ch01-01.aux) (ch02.aux) (ch03.aux)
+(ch04.aux) (ch05.aux) (ap01.aux))
 \openout1 = `all.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for T2A+ftm on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 13.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2aftm.fd"
 File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
 )<<t2a.cmap>>
 (C:\Users\solidol\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
+\scratchcounter=\count165
 \scratchdimen=\dimen157
 \scratchbox=\box44
-\nofMPsegments=\count165
-\nofMParguments=\count166
+\nofMPsegments=\count166
+\nofMParguments=\count167
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count167
+\MPscratchCnt=\count168
 \MPscratchDim=\dimen158
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
+\MPnumerator=\count169
+\makeMPintoPDFobject=\count170
 \everyMPtoPDFconversion=\toks45
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -741,14 +744,14 @@ G,.JBIG2,.JB2,.eps]
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 21.
+(lastpage)             ! on input line 13.
 \AtBeginShipoutBox=\box45
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count170
+\c@lstlisting=\count171
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -758,7 +761,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 21.
+LaTeX Info: Redefining \microtypecontext on input line 13.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -807,24 +810,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 13.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count171
+\c@section@level=\count172
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (all.out) (all.out)
 \@outlinefile=\write4
 \openout4 = `all.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+ftm on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+ftm on input line 16.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\ot1ftm.fd"
 File: ot1ftm.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/ftm.
 )<<ot1.cmap>>
@@ -931,13 +934,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 33.
 [3]
 \openout2 = `ch00.aux'.
 
@@ -964,13 +967,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 34.
 [4
 
 
@@ -1024,17 +1027,17 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 35.
 [7]
-\openout2 = `ch02.aux'.
+\openout2 = `ch01-01.aux'.
 
- (ch02.tex
+ (ch01-01.tex
  2.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
@@ -1044,6 +1047,14 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 3.
+(bu1.aux)
+\openout3 = `bu1.aux'.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 13.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1051,18 +1062,27 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 16.
 [8
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\T2A/ftm/m/n/10.95 (+20) Вiдсоток
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 34--38
+[]|\T2A/ftm/m/n/10.95 (+20) Оригiнальнiсть за-до-вiль-на (се-ре-дня унi-каль-
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1070,19 +1090,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 55.
 [9]
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 37.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 37.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1090,18 +1105,38 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 55.
 [10]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 55.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 71.
+[11]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 75.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 75.
 )
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1110,23 +1145,109 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 32.
-[11]
-\openout2 = `ch03.aux'.
+(babel)             in language  on input line 36.
+[12]
+\openout2 = `ch02.aux'.
 
- (ch03.tex
+ (ch02.tex
  3.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 3.
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 18.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 18.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 18.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 18.
+[13
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 31.
+[14]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 37.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 63.
+[15]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 67.
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 37.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 37.
+[16]
+\openout2 = `ch03.aux'.
+
+ (ch03.tex
+ 4.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 4.
@@ -1148,7 +1269,7 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 52.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 52.
-[12
+[17
 
 
 
@@ -1172,119 +1293,11 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 72.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 72.
-[13]
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 94.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 98.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 98.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 98.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 98.
-[14]
-Underfull \vbox (badness 1478) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 120.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 120.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 120.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 120.
-[15]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 141.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 141.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 141.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 141.
-[16]
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 162.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 162.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 174.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 174.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 174.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 174.
-[17]
-<er1.png, id=162, 619.31375pt x 321.2pt>
-File: er1.png Graphic file (type png)
-<use er1.png>
-Package pdftex.def Info: er1.png  used on input line 182. on input line 182.
-Package pdftex.def Info: Requested size: 309.65611pt x 160.59961pt on input lin
-e 182.
-<er2.png, id=163, 621.32124pt x 351.3125pt>
-File: er2.png Graphic file (type png)
-<use er2.png>
-Package pdftex.def Info: er2.png  used on input line 190. on input line 190.
-Package pdftex.def Info: Requested size: 310.65987pt x 175.6558pt on input line
- 190.
-<er3.png, id=164, 617.30624pt x 346.29375pt>
-File: er3.png Graphic file (type png)
-<use er3.png>
-Package pdftex.def Info: er3.png  used on input line 198. on input line 198.
-Package pdftex.def Info: Requested size: 308.65236pt x 173.14644pt on input lin
-e 198.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 211.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 211.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 211.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 211.
 [18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 94.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1293,14 +1306,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 98.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 98.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 98.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 222.
-[19 <./er1.png (PNG copy)>]
+(babel)             in language  on input line 98.
+[19]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1308,16 +1321,33 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 228.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 228.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 228.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 228.
-[20 <./er2.png (PNG copy)>]
-Underfull \vbox (badness 2057) has occurred while \output is active []
+(babel)             in language  on input line 120.
+[20]
 
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 141.
+[21]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 162.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 162.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1326,29 +1356,80 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 244.
-[21 <./er3.png (PNG copy)>]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 256.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 256.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 256.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 256.
+(babel)             in language  on input line 174.
 [22]
+<er1a.png, id=216, 539.01375pt x 165.61874pt>
+File: er1a.png Graphic file (type png)
+<use er1a.png>
+Package pdftex.def Info: er1a.png  used on input line 184. on input line 184.
+Package pdftex.def Info: Requested size: 312.9803pt x 96.1676pt on input line 1
+84.
+
+Overfull \hbox (5.6923pt too wide) in paragraph at lines 184--185
+ [][] 
+ []
+
+<er1b.png, id=217, 565.51276pt x 95.75775pt>
+File: er1b.png Graphic file (type png)
+<use er1b.png>
+Package pdftex.def Info: er1b.png  used on input line 189. on input line 189.
+Package pdftex.def Info: Requested size: 312.9803pt x 52.99713pt on input line 
+189.
+
+Overfull \hbox (5.6923pt too wide) in paragraph at lines 189--190
+ [][] 
+ []
+
+<er2a.png, id=218, 536.60475pt x 208.98074pt>
+File: er2a.png Graphic file (type png)
+<use er2a.png>
+Package pdftex.def Info: er2a.png  used on input line 200. on input line 200.
+Package pdftex.def Info: Requested size: 312.9803pt x 121.89131pt on input line
+ 200.
+
+Overfull \hbox (5.6923pt too wide) in paragraph at lines 200--201
+ [][] 
+ []
+
+<er2b.png, id=220, 565.51276pt x 95.75775pt>
+File: er2b.png Graphic file (type png)
+<use er2b.png>
+Package pdftex.def Info: er2b.png  used on input line 205. on input line 205.
+Package pdftex.def Info: Requested size: 312.9803pt x 52.99713pt on input line 
+205.
+
+Overfull \hbox (5.6923pt too wide) in paragraph at lines 205--206
+ [][] 
+ []
+
+<er3a.png, id=221, 537.80925pt x 210.7875pt>
+File: er3a.png Graphic file (type png)
+<use er3a.png>
+Package pdftex.def Info: er3a.png  used on input line 217. on input line 217.
+Package pdftex.def Info: Requested size: 312.9803pt x 122.67174pt on input line
+ 217.
+
+Overfull \hbox (5.6923pt too wide) in paragraph at lines 217--218
+ [][] 
+ []
+
+<er3b.png, id=222, 565.51276pt x 95.75775pt>
+File: er3b.png Graphic file (type png)
+<use er3b.png>
+Package pdftex.def Info: er3b.png  used on input line 222. on input line 222.
+Package pdftex.def Info: Requested size: 312.9803pt x 52.99713pt on input line 
+222.
+
+Overfull \hbox (5.6923pt too wide) in paragraph at lines 222--223
+ [][] 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1356,22 +1437,97 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 237.
 [23]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 246.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 246.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 246.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 246.
+[24 <./er1a.png> <./er1b.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 252.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 252.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 252.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 252.
+[25 <./er2a.png> <./er2b.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 263.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 263.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 263.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 263.
+[26 <./er3a.png> <./er3b.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 279.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 279.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 279.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 279.
+[27]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 294.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 294.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 294.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 294.
+[28]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 299.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 299.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 310.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 310.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1380,14 +1536,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 292.
-[24])
+(babel)             in language  on input line 314.
+[29])
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1395,18 +1551,18 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 33.
-[25]
+(babel)             in language  on input line 38.
+[30]
 \openout2 = `ch04.aux'.
 
  (ch04.tex
- 4.
+ 5.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "~
@@ -1419,14 +1575,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 34.
-[26
+(babel)             in language  on input line 39.
+[31
 
 
 
@@ -1434,7 +1590,7 @@ Package babel Info: Redefining ukrainian shorthand "~
 \openout2 = `ch05.aux'.
 
  (ch05.tex
- 5.
+ 6.
 Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ukrainian shorthand "~
@@ -1471,26 +1627,192 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 35.
-[27
+(babel)             in language  on input line 40.
+[32
 
+
+
+] (bu1.bbl
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 1.
+LaTeX Font Info:    Try loading font information for T2A+fer on input line 30.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2afer.fd"
+File: t2afer.fd 2004/09/21 Fontinst v1.914 font definitions for T2A/fer.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fer' (encoding: T2A).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 1622) in paragraph at lines 42--52
+\T2A/ftm/m/n/12 (+20) Мак-сим Ва-ле-рье-вич Куз-не-цов. Са-мо-учи-тель.   [[]Б
+. м.[]] :
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 42--52
+\T2A/ftm/m/n/12 (+20) до-сту-пу][]: [][]$\T2A/fer/m/n/12 https : / / books . go
+ogle . com . ua / books ? id =
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 55--59
+\T2A/ftm/m/n/12 (+20) ство борь-бы с пла-ги-а-том [[]Текст[]] / Аль-гир-дас Ауш
+-ра //
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 62--73
+[]\T2A/ftm/m/n/12 (+20) Илюшечкин, В.М. Ос-но-вы ис-поль-зо-ва-ния и про-ек-ти-
+ро-ва-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 73.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 73.
+[33
+
+]
+LaTeX Font Info:    Try loading font information for OT1+fer on input line 92.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\ot1fer.fd"
+File: ot1fer.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/fer.
+)<<ot1tt.cmap>>
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fer' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+(bu1.aux)
+No file bu.aux.
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 55.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 55.
+[34]
+\openout2 = `ap01.aux'.
+
+ (ap01.tex (bu2.aux)
+\openout3 = `bu2.aux'.
+
+ (bu2.bblpdfTeX warning (ext4): destination with the same identifier (name{chap
+ter.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \begin{thebibliography}{10}
+                               
+{\cyrillictext \CYRD \cyro \cyrd \cyra \cyrt \cyro \cyrk } {\cyrillictext \CYRD
+ \cyro \cyrd \cyra \cyrt \cyro \cyrk }\hspace {0.2cm}\CYRA .
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 1.
+pdfTeX warning (ext4): destination with the same identifier (name{cite.mois2012
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 \bibitem{mois2012}
+                       
+Underfull \hbox (badness 2302) in paragraph at lines 34--43
+[]\T2A/ftm/m/n/12 (+20) Дженнифер, М. Joomla! 3.0. Офи-ци-аль-ное ру-ко-вод-ств
+о
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.kuznetso
+v2007}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \bibitem{kuznetsov2007}
+                            
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 81.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 81.
+[35
 
 
 ]
-\openout2 = `ch06.aux'.
+Underfull \hbox (badness 1502) in paragraph at lines 95--105
+[]\T2A/ftm/m/n/12 (+20) Кузнецов, М.В. PHP. Прак-ти-ка со-зда-ния Web-сайтов, 2
 
- (ch06.tex
- 6.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 1.
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 95--105
+\T2A/ftm/m/n/12 (+20) изд. [[]Текст[]] / М.В. Куз-не-цов. Про-фес-си-о-наль-ное
+ про-
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 95--105
+\T2A/ftm/m/n/12 (+20) грам-ми-ро-ва-ние.   [[]Б. м.[]] : БХВ-Петербург, 2012. 
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.ilush201
+4osnovi}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.118 \bibitem{ilush2014osnovi}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{cite.sheldon2005beginning}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.132 \bibitem{sheldon2005beginning}
+                                    pdfTeX warning (ext4): destination with the
+ same identifier (name{cite.thalheim2000entity}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.144 \bibitem{thalheim2000entity}
+                                  
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]) (bu2.aux)
+No file bu.aux.
 )
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1499,79 +1821,48 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 36.
-[28
-
-
-
-]
-\openout2 = `ap01.aux'.
-
-
-No file ap01.tex.
-(all.bbl
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 1.
-) 
+(babel)             in language  on input line 55.
+[37] 
 AED: lastpage setting LastPage
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 60.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 60.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 60.
-[29
-
-
-
-]
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 60.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 60.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
- (all.aux (cover.aux) (ch00.aux) (ch01.aux) (ch02.aux) (ch03.aux) (ch04.aux) (c
-h05.aux) (ch06.aux) (ap01.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+(babel)             in language  on input line 64.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+(all.aux (cover.aux) (ch00.aux) (ch01.aux) (ch01-01.aux) (ch02.aux) (ch03.aux)
+(ch04.aux) (ch05.aux) (ap01.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
 Package rerunfilecheck Info: File `all.out' has not changed.
-(rerunfilecheck)             Checksum: AE579BB32E1349E6B1E3CC6EBAB141D3;5477.
+(rerunfilecheck)             Checksum: 6B1F0D9A6CA1A355B1B80B5B1BAF994F;7354.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18966 strings out of 493323
- 275678 string characters out of 3139060
- 415549 words of memory out of 3000000
- 21877 multiletter control sequences out of 15000+200000
- 31121 words of font info for 154 fonts, out of 3000000 for 9000
+ 19322 strings out of 493323
+ 281055 string characters out of 3139060
+ 417392 words of memory out of 3000000
+ 22108 multiletter control sequences out of 15000+200000
+ 38339 words of font info for 196 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,45p,2587b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/solidol/AppData/Roaming/MiKTeX/2.9/fonts/enc/t2/t2a.enc}<C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/pscyr/times.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/pscyr/timesbd.pfb>
-Output written on all.pdf (29 pages, 387289 bytes).
+ 43i,12n,51p,2587b,921s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/solidol/Ap
+pData/Roaming/MiKTeX/2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.9/font
+s/type1/public/pscyr/ercour.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/pscyr/times.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/timesbd.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/timesi.pfb>
+Output written on all.pdf (37 pages, 252083 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 19124 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 28911 words of extra memory for PDF output out of 29859 (max. 10000000)
 

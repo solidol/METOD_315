@@ -7,15 +7,7 @@
 \usepackage{main}
 
 
-
-
-
-
-
-\makeindex
-
-
-
+%\makeindex
 
 
 \begin{document}
@@ -25,15 +17,33 @@
 
 
 
+
+\renewcommand{\bibsection}{\likechapter{Використані джерела}}
 % подключаем файлы содержимого
+
+\defaultbibliographystyle{gost2003s}
+
+
+
+
+\begin{bibunit} 
+
+
+
 \include{cover}
 \include{ch00}
 \include{ch01}
+\include{ch01-01}
 \include{ch02}
 \include{ch03}
 \include{ch04}
 \include{ch05}
-\include{ch06}
+%\include{ch06}
+
+ 
+\putbib[main] 
+\end{bibunit}
+
 
 \appendix
 \makeatletter
@@ -45,14 +55,8 @@
 \include{ap01}
 
  
- 
-
-
 
 %\input{all.ind}
-
-\bibliographystyle{gost2003s}
-\bibliography{bib}  
 
 
 

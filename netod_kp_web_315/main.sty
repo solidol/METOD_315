@@ -36,6 +36,10 @@
 \RequirePackage{lscape}
 \RequirePackage{microtype}
 
+\RequirePackage[section]{placeins}
+
+
+
 
 
 \DeclareCaptionFormat{GOSTtable}{#2#1\\#3}
@@ -227,7 +231,7 @@
 \algrenewcommand{\algorithmicend}{\textbf{конец}}
 \algrenewtext{EndFor}{\textbf{конец цикла}}
 
-\usepackage[pdftex,bookmarks=true,colorlinks=true,linkcolor=Black,citecolor=Black,linktoc=none,urlcolor=Black]{hyperref}
+\RequirePackage[pdftex,bookmarks=true,colorlinks=true,linkcolor=Black,citecolor=Black,linktoc=none,urlcolor=Black]{hyperref}
 %\RequirePackage[ps2pdf,bookmarks=true,colorlinks=true,linkcolor=Black,citecolor=Black,linktoc=none]{hyperref}
 \newcommand{\term}[1]{\textit{#1}}
 \newcommand{\bydef}{\ensuremath{\stackrel{\text{\upshape df}}{=}}}
@@ -251,3 +255,5 @@
 \addtocontents{toc}{\protect\redeflchapter}
 \def\thechapter{\appendixname\hspace{0.2cm}\@Alph\c@chapter}}
 \makeatother
+
+\raggedbottom

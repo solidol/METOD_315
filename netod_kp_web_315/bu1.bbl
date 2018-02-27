@@ -18,6 +18,14 @@
   \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
   \BibUrl{http://slavos.com/prototipy_sajta/}.
 
+\bibitem{suya_551}
+\selectlanguageifdefined{ukrainian}
+Положення про академічну доброчесність [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~: СУЯ
+  – П – 5.51 – 2017~/ Херсонський політехнічний коледж Одеського національного
+  політехнічного університету~; {\cyr\cyrr\cyro\cyrz\cyrr\cyro\cyrb.}:
+  О.~І.~Куценко, Н.В.~Ротань, О.~Є.~Яковенко. "---
+\newblock Херсон~: 2017.
+
 \bibitem{metodlib001}
 \selectlanguageifdefined{ukrainian}
 \BibEmph{Пилип,~А.Я.} "---
@@ -68,8 +76,10 @@
 \bibitem{gost712006}
 \selectlanguageifdefined{ukrainian}
 {ДСТУ~ГОСТ~7.1:2006 Бібліографічний запис. Бібліографічний опис}
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]. "---
-\newblock 2003.
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Український інститут науково-технічної і
+  економічної інформації. Технічний комітет стандартизації <<Інформація і
+  документація>>~: Міждержавна рада з питать стандартизації, метрології,
+  сертифікації, 2003.
 
 \bibitem{word2010}
 \selectlanguageifdefined{russian}
@@ -83,9 +93,11 @@
 
 \bibitem{dstu3008}
 \selectlanguageifdefined{ukrainian}
-ДСТУ~3008:2015 Звіти у сфері науки і техніки [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}].
-  "---
-\newblock 2015.
+ДСТУ~3008:2015 Звіти у сфері науки і техніки
+  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Український інститут науково-технічної і
+  економічної інформації. Технічний комітет стандартизації <<Інформація і
+  документація>>. "---
+\newblock К.~: 2015.
 
 \bibitem{gost7052008}
 \selectlanguageifdefined{russian}

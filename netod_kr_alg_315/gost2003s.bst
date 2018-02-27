@@ -703,7 +703,7 @@ FUNCTION {bbl.chief}
    { curlanguage "russian" =
       { "\cyrr\cyru\cyrk." }
       { curlanguage "ukrainian" =
-        { "\cyrr\cyru\cyrk." }
+        { "\cyrk\cyre\cyrr." }
         { "language is not defined: " language "chief" * * warning$ "chief" }
       if$}
    if$}
@@ -717,6 +717,18 @@ FUNCTION {bbl.executor}
       { curlanguage "ukrainian" =
         { "{\cyr\cyrv\cyri\cyrk\cyro\cyrn\cyra\cyrv\cyre\cyrc\cyrsftsn}" }
         { "language is not defined: " language "medium" * * warning$ "Executor" }
+      if$}
+   if$}
+if$}
+
+FUNCTION {bbl.designer}
+{ curlanguage "english" =
+   { "Executor" }
+   { curlanguage "russian" =
+      { "{\cyr\cyrr\cyra\cyrz\cyrr\cyra\cyrb.}" }
+      { curlanguage "ukrainian" =
+        { "{\cyr\cyrr\cyro\cyrz\cyrr\cyro\cyrb.}" }
+        { "language is not defined: " language "medium" * * warning$ "Designer" }
       if$}
    if$}
 if$}
@@ -820,6 +832,13 @@ FUNCTION {format.executor.after}
 { author empty$
     { "" }
     { bbl.executor ": " * author format.names.rev * }
+  if$
+}
+
+FUNCTION {format.designer.after}
+{ author empty$
+    { "" }
+    { bbl.designer ": " * author format.names.rev * }
   if$
 }
 
@@ -1627,6 +1646,37 @@ FUNCTION {report}
   format.annote output
   fin.entry
 }
+
+FUNCTION {standard}
+{
+  output.bibitem
+  format.title add.doi add.medium "title" output.check
+  new.column
+  type "type" output.check
+  new.column
+  number output
+  new.slash
+  institution "institution" output.check
+  new.semicolumn
+  format.chief.after output % from editor field
+  new.semicolumn
+  format.designer.after output % from author field
+  new.block
+  address output
+  new.column
+  organization output
+  format.date "year" output.check
+  new.block                % v.2
+  format.pages.page output % v.2
+  new.sentence % или new.block ?
+  output.eprint.url
+  new.block
+  note output
+  format.annote output
+  fin.entry
+}
+
+
 
 FUNCTION {phdthesis}
 { output.bibitem
