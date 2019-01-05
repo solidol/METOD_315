@@ -18,7 +18,7 @@
 
 
 
-\renewcommand{\bibsection}{\likechapter{Використані джерела}}
+\renewcommand{\bibsection}{\likechapter{Перелік джерел посилань}}
 % подключаем файлы содержимого
 
 \defaultbibliographystyle{gost2003s}
@@ -31,14 +31,20 @@
 
 
 \include{cover}
+
+{
+\linespread{1.15}
+\tableofcontents
+}
+
+
 \include{ch00}
 \include{ch01}
-\include{ch01-01}
 \include{ch02}
 \include{ch03}
 \include{ch04}
 \include{ch05}
-%\include{ch06}
+\include{ch06}
 
  
 \putbib[main] 
@@ -46,13 +52,15 @@
 
 
 \appendix
-\makeatletter
 
-\makeatother
+
+
 \def\chaptername{Додаток}
 
 
 \include{ap01}
+\include{ap02}
+\include{ap03}
 
  
 

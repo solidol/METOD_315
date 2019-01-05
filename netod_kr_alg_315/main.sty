@@ -10,7 +10,7 @@
 
 %\RequirePackage{siunits}
 \RequirePackage{extsizes}
-\RequirePackage{titlesec}
+\RequirePackage[indentfirst]{titlesec}
 \RequirePackage{cmap}
 \RequirePackage{rotating}
 %\RequirePackage{cyrillic}
@@ -38,8 +38,8 @@
 
 \RequirePackage[section]{placeins}
 
-
-
+\RequirePackage{rotating}
+\RequirePackage[title,titletoc]{appendix} 
 
 
 \DeclareCaptionFormat{GOSTtable}{#2#1\\#3}
@@ -86,7 +86,7 @@
 	}
 \setcounter{page}{1}
 
-\linespread{1.3}
+\linespread{1}
 \renewcommand{\rmdefault}{ftm}
 \frenchspacing
 
@@ -179,20 +179,26 @@
 \providecommand\totfig{} 
 \providecommand\tottab{}
 \providecommand\totref{}
+
+
 \newcommand{\likechapterheading}[1]{
 	\begin{center}
-	%\textbf{\MakeUppercase{#1}}
 	\textbf{{#1}}
 	\end{center}
-%	\empline
 \vspace{5pt}
 	}
+	
+	
 \newcommand{\likechapter}[1]{	
 	\phantomsection
 	\likechapterheading{#1}	
-	%\addcontentsline{toc}{likechapter}{\texorpdfstring{\MakeUppercase{#1}}{#1}}}
-	\addcontentsline{toc}{likechapter}{\texorpdfstring{{#1}}{#1}}}
-\newcommand{\empline}{\mbox{}\newline}
+	\addcontentsline{toc}{likechapter}{
+		\texorpdfstring{{#1}}{#1}
+		}
+	}
+	
+	
+
 \renewcommand{\bibnumfmt}[1]{#1.\hfill}
 
 \setlength{\bibsep}{0pt}
@@ -200,9 +206,13 @@
 \newcommand{\append}[1]{
 	\clearpage
 	\stepcounter{chapter}	
-	\paragraph{\MakeUppercase{#1}}
-	\empline
-	\addcontentsline{toc}{likechapter}{\texorpdfstring{\MakeUppercase{\chaptertitlename~\Asbuk{chapter}\;#1}}{\chaptertitlename~\Asbuk{chapter}:~#1}}}
+	%\paragraph{#1}
+	
+	\begin{center}
+	\bfseries\chaptertitlename~\Asbuk{chapter}\;#1
+	\end{center}
+
+	\addcontentsline{toc}{likechapter}{\texorpdfstring{\chaptertitlename~\Asbuk{chapter}\;#1}{\chaptertitlename~\Asbuk{chapter}~#1}}}
 	
 \RequirePackage{geometry}
 \geometry{left=1.4cm}
@@ -245,15 +255,6 @@
 \newtheorem{defn}{Определение}[chapter]
 \newtheorem{scenario}{Сценарий}[chapter]
 
-\renewcommand\appendixname{ДОДАТОК}
-\makeatletter
-\def\redeflchapter{\def\l@chapter{\@dottedtocline{1}{0em}{7.8em}}}
-\renewcommand\appendix{\par
-\setcounter{chapter}{0}%
-\setcounter{section}{0}%
-\def\@chapapp{\appendixname}%
-\addtocontents{toc}{\protect\redeflchapter}
-\def\thechapter{\appendixname\hspace{0.2cm}\@Alph\c@chapter}}
-\makeatother
 
-\raggedbottom
+
+
