@@ -42,29 +42,43 @@
 \RequirePackage[title,titletoc]{appendix} 
 
 
-\DeclareCaptionFormat{GOSTtable}{#2#1\\#3}
+\DeclareCaptionFormat{DSTUtable}{#2#1{~--~}#3}
 \DeclareCaptionLabelSeparator{fill}{\hfill}
 %\DeclareCaptionLabelFormat{fullparents}{\bothIfFirst{#1}{~}#2}
 \DeclareCaptionLabelFormat{gtb}{Таблиця{~}#2}
-\captionsetup[table]{
-     format=GOSTtable,
+\DeclareCaptionLabelFormat{gfg}{Рисунок{~}#2}
+
+
+\captionsetup[figure]{
+     format=DSTUtable,
      %font={footnotesize},
-     labelformat=gtb,
-     labelsep=fill,
-     labelfont=it,
-     textfont=bf,
+     labelformat=gfg,
+     labelsep=none,
+     %labelfont=it,
+     %textfont=bf,
      justification=centering,
      singlelinecheck=false
-     }
+    }
 
-\captionsetup[longtable]{
-     format=GOSTtable,
+\captionsetup[table]{
+     format=DSTUtable,
      %font={footnotesize},
      labelformat=gtb,
      labelsep=fill,
-     labelfont=it,
-     textfont=bf,
-     justification=centering,
+     %labelfont=it,
+     %textfont=bf,
+     %justification=centering,
+     singlelinecheck=false
+    }
+
+\captionsetup[longtable]{
+     format=DSTUtable,
+     %font={footnotesize},
+     labelformat=gtb,
+     labelsep=fill,
+     %labelfont=it,
+     %textfont=bf,
+     %justification=centering,
      singlelinecheck=false
      }
 
@@ -91,36 +105,17 @@
 \frenchspacing
 
 
-\makeatletter % эта строка НЕОБХОДИМА!
-\renewcommand{\@chapapp}{} % необязательная строчка.
-% определяет значение \@chapapp (используется ниже)
-\renewcommand{\@makechapterhead}[1]{% Начало макроопределения
-\vspace*{-2em}% Пустое место вверху страницы
-{\parindent=0pt
-%\raggedright 
-\centering\hyphenpenalty=10000\normalfont\bfseries
-%\@chapapp{} % \@chapapp печатает слово "Glava" (см. выше)
-%\centering\bfseries\thechapter~#1\par % заголовок главы
-\centering\thechapter~#1\par % заголовок главы
-\nopagebreak % чтоб не оторвать заголовок от текста
-\vspace{10 pt} % между заголовком и текстом
-}% конец группы.
-}% конец макроопределения
-\makeatother % эта строка НЕОБХОДИМА!
-
-%\renewcommand{\chaptermark}[1]{\protect\markboth{\textbf{#1}}{}}
-
-%\titleformat{\chapter}[display]
+\titleformat{\chapter}[block]
+	{\normalsize\bfseries}
+	{\mbox{\thechapter}}
+	{1em}{\MakeUppercase}
+	
+	
+%\titleformat{\paragraph}[display]
 %	{\filcenter}
-%	{\MakeUppercase{\chaptertitlename} \thechapter}
+%	{\thechapter}
 %	{8pt}
 %	{\bfseries}{}
-	
-\titleformat{\paragraph}[display]
-	{\filcenter}
-	{\MakeUppercase{\chaptertitlename} \thechapter}
-	{8pt}
-	{\bfseries}{}
 	
 \titleformat{\section}
 	{\normalsize\bfseries}
@@ -132,19 +127,15 @@
 	{\thesubsection}
 	{1em}{}
 	
-%\titlespacing*{\ter}{0pt}{-30pt}{8pt}
-%\titlespacing*{\paragraph}{0pt}{-30pt}{8pt}
-%\titlespacing*{\section}{\parindent}{*4}{*4}
-%\titlespacing*{\subsection}{\parindent}{*4}{*4}
-
-\titlespacing*{\chapter}{0pt}{-30pt}{8pt}
-\titlespacing*{\paragraph}{0pt}{-30pt}{8pt}
+\titlespacing*{\chapter}{\parindent}{-20pt}{*4}
 \titlespacing*{\section}{\parindent}{*4}{*4}
-\titlespacing*{\subsection}{\parindent}{*4}{*4}
+\titlespacing*{\subsection}{\parindent}{*2}{*2}
+\titlespacing*{\paragraph}{0pt}{-30pt}{8pt}
+
 
 \renewcommand{\cfttoctitlefont}{\hspace{0.38\textwidth} \bfseries\MakeUppercase}
 \renewcommand{\cftbeforetoctitleskip}{-1em}
-\renewcommand{\cftaftertoctitle}{\mbox{}\hfill \\ \mbox{}\hfill{\footnotesize Стр.}\vspace{-2.5em}}
+\renewcommand{\cftaftertoctitle}{\mbox{}\hfill \\ \mbox{}\hfill{\footnotesize Стор.}\vspace{-2.5em}}
 \renewcommand{\cftchapfont}{\normalsize }
 \renewcommand{\cftsecfont}{\hspace{40pt}}
 \renewcommand{\cftsubsecfont}{\hspace{20pt}}
@@ -183,7 +174,7 @@
 
 \newcommand{\likechapterheading}[1]{
 	\begin{center}
-	\textbf{{#1}}
+	\textbf{\MakeUppercase{#1}}
 	\end{center}
 \vspace{5pt}
 	}
@@ -209,7 +200,7 @@
 	%\paragraph{#1}
 	
 	\begin{center}
-	\bfseries\chaptertitlename~\Asbuk{chapter}\;#1
+	\bfseries\MakeUppercase{\chaptertitlename~\Asbuk{chapter}\;#1}
 	\end{center}
 
 	\addcontentsline{toc}{likechapter}{\texorpdfstring{\chaptertitlename~\Asbuk{chapter}\;#1}{\chaptertitlename~\Asbuk{chapter}~#1}}}
