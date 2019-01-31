@@ -41,6 +41,7 @@
 \RequirePackage{rotating}
 \RequirePackage[title,titletoc]{appendix} 
 
+\setlength{\parskip}{0em}
 
 \DeclareCaptionFormat{DSTUtable}{#2#1{~--~}#3}
 \DeclareCaptionLabelSeparator{fill}{\hfill}
@@ -105,9 +106,11 @@
 \frenchspacing
 
 
+
+
 \titleformat{\chapter}[block]
 	{\normalsize\bfseries}
-	{\mbox{\thechapter}}
+	{\thechapter}
 	{1em}{\MakeUppercase}
 	
 	
@@ -127,9 +130,13 @@
 	{\thesubsection}
 	{1em}{}
 	
-\titlespacing*{\chapter}{\parindent}{-20pt}{*4}
-\titlespacing*{\section}{\parindent}{*4}{*4}
-\titlespacing*{\subsection}{\parindent}{*2}{*2}
+	
+
+	
+	
+\titlespacing*{\chapter}{\parindent}{-20pt}{0em}
+\titlespacing*{\section}{\parindent}{2em}{2em}
+\titlespacing*{\subsection}{\parindent}{1em}{1em}
 \titlespacing*{\paragraph}{0pt}{-30pt}{8pt}
 
 
