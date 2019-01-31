@@ -1,12 +1,29 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: bu1.aux
-The style file: gost2003s.bst
+The style file: gost705s.bst
 Database file #1: main.bib
-Warning--empty type in suya_551
-Warning--empty type in gost712006
-Warning--empty type in dstu3008
-Warning--empty type in gost7052008
-Warning--empty institution in gost7052008
-Warning--empty year in gost7052008
-Warning--language is not defined: ukrainiannnoaddress
-Warning--language is not defined: ukrainiannnopublisher
-(There were 8 warnings)
+Warning--entry type for "dstu3008" isn't style-file defined
+--line 3 of file main.bib
+Warning--entry type for "gost7052008" isn't style-file defined
+--line 36 of file main.bib
+Warning--entry type for "word2010" isn't style-file defined
+--line 41 of file main.bib
+Warning--entry type for "word002" isn't style-file defined
+--line 48 of file main.bib
+Warning--entry type for "dstu3008bakal" isn't style-file defined
+--line 55 of file main.bib
+Warning--entry type for "proto1" isn't style-file defined
+--line 80 of file main.bib
+Warning--entry type for "adobe1" isn't style-file defined
+--line 86 of file main.bib
+Warning--entry type for "suya_551" isn't style-file defined
+--line 92 of file main.bib
+Warning--entry type for "dstu8302" isn't style-file defined
+--line 161 of file main.bib
+Warning--empty author in proto1
+Warning--empty author in dstu3008bakal
+Warning--empty author in word002
+Warning--empty author in word2010
+Warning--empty author in dstu3008
+Warning--empty author in gost7052008
+Warning--empty author in adobe1
+(There were 16 warnings)

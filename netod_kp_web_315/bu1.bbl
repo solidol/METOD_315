@@ -1,116 +1,88 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
 \begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
-\else\selectlanguage{#1}\fi}
-\providecommand*{\href}[2]{{\small #2}}
-\providecommand*{\url}[1]{{\small #1}}
-\providecommand*{\BibUrl}[1]{\url{#1}}
-\providecommand{\BibAnnote}[1]{}
-\providecommand*{\BibEmph}[1]{#1}
+\else\language\csname l@#1\endcsname\fi}
 
 \bibitem{proto1}
 \selectlanguageifdefined{russian}
-Что такое прототип сайта – создание и примеры
-  [{\cyr\CYREREV\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyrery\cyrishrt\
-  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}~: {\cyr\cyrb.\ \cyri.}]. "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{http://slavos.com/prototipy_sajta/}.
+Что такое прототип сайта – создание и примеры.
+\newblock \BibUrl{http://slavos.com/prototipy_sajta/}.
 
 \bibitem{suya_551}
 \selectlanguageifdefined{ukrainian}
-Положення про академічну доброчесність [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~: СУЯ
-  – П – 5.51 – 2017~/ Херсонський політехнічний коледж Одеського національного
-  політехнічного університету~; {\cyr\cyrr\cyro\cyrz\cyrr\cyro\cyrb.}:
-  О.~І.~Куценко, Н.В.~Ротань, О.~Є.~Яковенко. "---
-\newblock Херсон~: 2017.
+\BibEmph{Куценко,~О.~І., Ротань,~Н.В., Яковенко,~О.~Є.}
+\newblock Положення про академічну доброчесність.
+\newblock 2017.
+
+\bibitem{dstu8302}
+\selectlanguageifdefined{ukrainian}
+\BibEmph{Петрова,~Н., Плиса,~Г., Жигун,~Т.}
+\newblock ДСТУ~8302:2015 <<Бібліографічний запис. Бібліографічне посилання.
+  Загальні положення та правила складання>>.
+\newblock 2015.
+\newblock \BibUrl{http://lib.pu.if.ua/files/dstu-8302-2015.pdf}.
 
 \bibitem{metodlib001}
 \selectlanguageifdefined{ukrainian}
-\BibEmph{Пилип,~А.Я.} "---
+\BibEmph{Пилип,~А.Я., Жолобко,~Л.А.}
 \newblock Складання списків використаної літератури до курсових, дипломних та
-  інших наукових робіт: методичні вказівки щодо проведення практичних занять
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]. "---
+  інших наукових робіт: методичні вказівки щодо проведення практичних занять.
 \newblock Іванофранківськ, 2013.
 
 \bibitem{metodgost002}
 \selectlanguageifdefined{ukrainian}
-\BibEmph{Галевич,~О.~К.} "---
+\BibEmph{Галевич,~О.~К., Штогрин,~I.~М.}
 \newblock ДСТУ ГОСТ 7.1:2006 «Бібліографічний запис, бібліографічний опис.
-  Загальні вимоги та правила складання»: Методичні рекомендації з впровадження
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]. "---
+  Загальні вимоги та правила складання»: Методичні рекомендації з впровадження.
 \newblock Львівський національний університет імені Івана Франка, Львів, 2008.
-  "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{http://ftfsite.ru/wp-content/files/Library_Standart.pdf}.
+\newblock \BibUrl{http://ftfsite.ru/wp-content/files/Library_Standart.pdf}.
 
 \bibitem{plag1}
 \selectlanguageifdefined{russian}
 \BibEmph{Аушра,~Альгирдас}. Научная электронная библиотека как средство борьбы
-  с плагиатом [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Альгирдас~Аушра~//
-  \BibEmph{Educational Technology \& Society}. "---
+  с плагиатом~// \BibEmph{Educational Technology \& Society}.
 \newblock 2006.
 
 \bibitem{dstu3008bakal}
 \selectlanguageifdefined{russian}
-Диплом бакалавра в latex, или ДСТУ 3008-95 в 150 строк
-  [{\cyr\CYREREV\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyrery\cyrishrt\
-  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}~: {\cyr\cyrb.\ \cyri.}], 2012. "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://habrahabr.ru/post/144648/}.
+Диплом бакалавра в LaTeX, или ДСТУ 3008-95 в 150 строк.
+\newblock 2012.
+\newblock \BibUrl{https://habrahabr.ru/post/144648/}.
 
 \bibitem{word002}
 \selectlanguageifdefined{russian}
-Стиль библиографии для word по ГОСТ Р ИСО 7.0.5 2008
-  [{\cyr\CYREREV\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyrery\cyrishrt\
-  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}~: {\cyr\cyrb.\ \cyri.}], 2016. "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://github.com/irandom/docs}.
-
-\bibitem{gost712006}
-\selectlanguageifdefined{ukrainian}
-{ДСТУ~ГОСТ~7.1:2006 Бібліографічний запис. Бібліографічний опис}
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Український інститут науково-технічної і
-  економічної інформації. Технічний комітет стандартизації <<Інформація і
-  документація>>~: Міждержавна рада з питать стандартизації, метрології,
-  сертифікації, 2003.
+Стиль библиографии для Word по ГОСТ Р ИСО 7.0.5 2008.
+\newblock 2016.
+\newblock \BibUrl{https://github.com/irandom/docs}.
 
 \bibitem{word2010}
 \selectlanguageifdefined{russian}
-Библиография в word'е 2010 и 2013 по ГОСТ Р 7.0.5-2008
-  [{\cyr\CYREREV\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyrery\cyrishrt\
-  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}~: {\cyr\cyrb.\ \cyri.}], 2012. "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{http://det-random.livejournal.com/28819.html}.
+Библиография в Word'е 2010 и 2013 по ГОСТ Р 7.0.5-2008.
+\newblock 2012.
+\newblock \BibUrl{http://det-random.livejournal.com/28819.html}.
 
 \bibitem{dstu3008}
 \selectlanguageifdefined{ukrainian}
-ДСТУ~3008:2015 Звіти у сфері науки і техніки
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Український інститут науково-технічної і
-  економічної інформації. Технічний комітет стандартизації <<Інформація і
-  документація>>. "---
-\newblock К.~: 2015.
+ДСТУ~3008:2015 Звіти у сфері науки і техніки.
+\newblock 2015.
 
 \bibitem{gost7052008}
 \selectlanguageifdefined{russian}
-ГОСТ~7.0.5:2008~Библиографическая ссылка [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}].
+ГОСТ~7.0.5:2008~Библиографическая ссылка.
 
 \bibitem{adobe1}
 \selectlanguageifdefined{ukrainian}
-Копіювання css із шарів
-  [{\cyr\CYRE\cyrl\cyre\cyrk\cyrt\cyrr\cyro\cyrn\cyrn\cyri\cyrishrt\
-  \cyrr\cyre\cyrs\cyru\cyrr\cyrs}]. "---
-\newblock [S.\ l.~: s.\ n.]. "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
+Копіювання CSS із шарів.
+\newblock
   \BibUrl{https://helpx.adobe.com/ua/photoshop/using/copy-css-shape-or-text.html}.
 
 \end{thebibliography}

@@ -1,111 +1,87 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
 \begin{thebibliography}{1}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
-\else\selectlanguage{#1}\fi}
-\providecommand*{\href}[2]{{\small #2}}
-\providecommand*{\url}[1]{{\small #1}}
-\providecommand*{\BibUrl}[1]{\url{#1}}
-\providecommand{\BibAnnote}[1]{}
-\providecommand*{\BibEmph}[1]{#1}
+\else\language\csname l@#1\endcsname\fi}
 
 \bibitem{koterov}
 \selectlanguageifdefined{russian}
-\BibEmph{Котеров,~Д.} PHP 5 В Подлиннике [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/
-  Д.~Котеров, А.~Костарев. "---
-\newblock 3-е {\cyr\cyri\cyrz\cyrd.} "---
-\newblock В подлиннике~: БХВ-Петербург, 2006. "---
+\BibEmph{Котеров,~Д., Костарев,~А.} PHP 5 В Подлиннике.
+\newblock 3-е {\cyr\cyri\cyrz\cyrd.}
+\newblock В подлиннике: БХВ-Петербург, 2006.
 \newblock 1104~{\cyr\cyrs.}
 
 \bibitem{2013joomla}
 \selectlanguageifdefined{russian}
-\BibEmph{Дженнифер,~М.} Joomla! 3.0. Официальное руководство
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ М.~Дженнифер, У.~Элин. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}]~: Питер, 2013. "---
+\BibEmph{Дженнифер,~М., Элин,~У.} Joomla! 3.0. Официальное руководство.
+\newblock Питер, 2013.
 \newblock
   ISBN:~\href{http://isbndb.com/search-all.html?kw=9785496006637}{9785496006637}.
-  "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://books.google.com.ua/books?id=MsLDCwAAQBAJ}.
+\newblock \BibUrl{https://books.google.com.ua/books?id=MsLDCwAAQBAJ}.
 
 \bibitem{mysql2007}
 \selectlanguageifdefined{russian}
-\BibEmph{Кузнецов,~М.В.} Самоучитель MySQL 5
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ М.В.~Кузнецов. Самоучитель. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}]~: БХВ-Петербург, 2007. "---
+\BibEmph{Кузнецов,~М.В.} Самоучитель MySQL 5. Самоучитель.
+\newblock БХВ-Петербург, 2007.
 \newblock
   ISBN:~\href{http://isbndb.com/search-all.html?kw=9785941577545}{9785941577545}.
-  "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://books.google.com.ua/books?id=SHuaVtueQlEC}.
+\newblock \BibUrl{https://books.google.com.ua/books?id=SHuaVtueQlEC}.
 
 \bibitem{web2008}
 \selectlanguageifdefined{russian}
 \BibEmph{Ташков,~П.А.} Веб-мастеринг: HTML, CSS, JavaScript, PHP, CMS, графика,
-  раскрутка: Html, Css, Javascript, Php, Cms, Grafika, Raskrutka
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ П.А.~Ташков. На 100проц. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}]~: Питер, 2008. "---
+  раскрутка: Html, Css, Javascript, Php, Cms, Grafika, Raskrutka. На 100проц.
+\newblock Питер, 2008.
 \newblock
   ISBN:~\href{http://isbndb.com/search-all.html?kw=9785388007551}{9785388007551}.
-  "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://books.google.com.ua/books?id=\_en3o2F1RYcC}.
+\newblock \BibUrl{https://books.google.com.ua/books?id=\_en3o2F1RYcC}.
 
 \bibitem{20081s}
 \selectlanguageifdefined{russian}
-\BibEmph{Басыров,~Р.И.} 1С. Битрикс: постройте профессиональный сайт сами
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Р.И.~Басыров. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}]~: Питер, 2008. "---
+\BibEmph{Басыров,~Р.И.} 1С. Битрикс: постройте профессиональный сайт сами.
+\newblock Питер, 2008.
 \newblock
   ISBN:~\href{http://isbndb.com/search-all.html?kw=9785388002716}{9785388002716}.
-  "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://books.google.com.ua/books?id=p5XN-8-Iog8C}.
+\newblock \BibUrl{https://books.google.com.ua/books?id=p5XN-8-Iog8C}.
 
 \bibitem{wp002}
 \selectlanguageifdefined{russian}
 \BibEmph{Грачев,~Андрей}. Создаем свой сайт на WordPress: быстро, легко и
-  бесплатно [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Андрей~Грачев. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}]~: Питер, 2010. "---
+  бесплатно.
+\newblock Питер, 2010.
 \newblock
   ISBN:~\href{http://isbndb.com/search-all.html?kw=9785498079394}{9785498079394}.
-  "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://books.google.com.ua/books?id=Z\_RZ0PHYb9kC}.
+\newblock \BibUrl{https://books.google.com.ua/books?id=Z\_RZ0PHYb9kC}.
 
 \bibitem{2012php}
 \selectlanguageifdefined{russian}
 \BibEmph{Кузнецов,~М.В.} PHP. Практика создания Web-сайтов, 2 изд.
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ М.В.~Кузнецов. Профессиональное
-  программирование. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}]~: БХВ-Петербург, 2012. "---
+  Профессиональное программирование.
+\newblock БХВ-Петербург, 2012.
 \newblock
   ISBN:~\href{http://isbndb.com/search-all.html?kw=9785977502030}{9785977502030}.
-  "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://books.google.com.ua/books?id=yBc8G7O\_pAoC}.
+\newblock \BibUrl{https://books.google.com.ua/books?id=yBc8G7O\_pAoC}.
 
 \bibitem{wp2012wordpress}
 \selectlanguageifdefined{russian}
-\BibEmph{Хассей,~Т.} WordPress для профессионалов
-  [{\cyr\CYRT\cyre\cyrk\cyrs\cyrt}]~/ Т.~Хассей. "---
-\newblock [{\cyr\CYRB.\ \cyrm.}]~: Эксмо, 2012. "---
+\BibEmph{Хассей,~Т.} WordPress для профессионалов.
+\newblock Эксмо, 2012.
 \newblock
   ISBN:~\href{http://isbndb.com/search-all.html?kw=9785699547098}{9785699547098}.
-  "---
-\newblock {[\cyr\CYRR\cyre\cyrzh\cyri\cyrm\
-  \cyrd\cyro\cyrs\cyrt\cyru\cyrp\cyru]}:
-  \BibUrl{https://books.google.com.ua/books?id=37zQkQEACAAJ}.
+\newblock \BibUrl{https://books.google.com.ua/books?id=37zQkQEACAAJ}.
 
 \bibitem{php001}
 \selectlanguageifdefined{english}
-\BibEmph{Valade,~Janet}. PHP, MySQL, JavaScript \& HTML5 All-in-One For Dummies
-  [Text]~/ Janet~Valade, Steve~Suehring. "---
-\newblock [S.\ l.~: s.\ n.], 2013.
+\BibEmph{Valade,~Janet, Suehring,~Steve}. PHP, MySQL, JavaScript \& HTML5
+  All-in-One For Dummies.
+\newblock 2013.
 
 \end{thebibliography}
